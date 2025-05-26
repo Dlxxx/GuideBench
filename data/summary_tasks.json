@@ -1,0 +1,2230 @@
+[
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_49",
+        "rule_text": "如果文本中涉及事件过程，总结时需要将事件过程详细展开"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_75",
+        "rule_text": "如果文本中有人物信息，总结时需要将人物信息以分组形式列出"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_31",
+        "rule_text": "如果文本中涉及事件背景，总结时需要将事件背景按时间先后顺序详细梳理列出"
+      }
+    ],
+    "Context": "在20世纪90年代初期，全球经济正处于快速发展与转型的阶段，科技革命带来的影响逐渐显现。当时，有三位杰出的商业人士，分别是来自美国的约翰、来自德国的汉斯以及来自日本的山本。约翰是一位具有前瞻性眼光的企业家，一直关注着新兴的互联网领域。汉斯则在传统制造业有着深厚的积累，致力于提升生产效率。山本在电子科技行业小有名气，专注于产品的创新研发。在1995年，约翰察觉到互联网商业的巨大潜力，决定投资创建一家电子商务公司。他四处寻找合适的团队和技术支持，经过数月的筹备，公司正式成立。同年，汉斯发现传统制造业面临着来自新兴产业的竞争压力，于是他决定引入先进的自动化技术，对工厂进行升级改造。他先是考察了多家供应商，对比技术和价格，最终选定合作伙伴，逐步推进改造工程。山本也没闲着，在1996年，他带领团队研发出一款全新的电子产品，该产品一经推出便在市场上引起轰动。",
+    "MultipleOptions": "A. 20世纪90年代初全球经济发展转型，科技革命影响显现。有三位商业人士，约翰来自美国关注互联网领域，汉斯来自德国在传统制造业有积累，山本来自日本在电子科技行业小有名气。1995年约翰创建电子商务公司，汉斯改造工厂，1996年山本研发新产品。\nB. 20世纪90年代初经济发展，有约翰、汉斯、山本三位商业人士。1995年约翰创建公司，汉斯改造工厂，1996年山本研发新产品。\nC. 有三位商业人士，约翰关注互联网，汉斯在传统制造业，山本在电子科技行业。1995年约翰创建电子商务公司，汉斯改造工厂，1996年山本研发新产品。\nD. 20世纪90年代初全球经济发展，约翰、汉斯、山本进行了商业活动。",
+    "Groundtruth": {
+      "OptimalOption": "A",
+      "AnswerAnalysis": "最佳选项为A。A选项既按时间先后顺序详细梳理了事件背景，将20世纪90年代初全球经济发展情况呈现出来；又以分组形式列出了人物信息，介绍了三位商业人士的国籍和特点；还详细展开了事件过程，说明了不同时间人物的具体商业活动。B选项没有详细梳理事件背景，人物信息介绍也不够详细。C选项没有梳理事件背景，人物信息介绍不完整。D选项事件背景、人物信息和事件过程都表述过于简略，均不符合要求。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_49",
+        "rule_text": "如果文本中涉及事件过程，总结时需要将事件过程详细展开"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_75",
+        "rule_text": "如果文本中有人物信息，总结时需要将人物信息以分组形式列出"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_31",
+        "rule_text": "如果文本中涉及事件背景，总结时需要将事件背景按时间先后顺序详细梳理列出"
+      }
+    ],
+    "Context": "在21世纪初，随着全球化进程的加速，国际贸易环境日益复杂。彼时，有四位关键人物活跃在不同领域。来自法国的玛丽，是一位资深的国际关系专家，一直致力于研究国际贸易政策对各国经济的影响；来自英国的大卫，是颇具影响力的金融分析师，擅长分析全球金融市场的动态变化；来自中国的林教授，在跨国企业管理方面造诣深厚，长期关注企业在国际市场的战略布局；来自巴西的卡洛斯，是一位勇于创新的企业家，积极拓展海外市场。在2005年，国际原材料价格大幅波动，这一情况给全球制造业带来巨大挑战。同年，玛丽受国际组织邀请，参与一场关于国际贸易新秩序的研讨会，她在会上深入剖析政策问题并提出见解。大卫则专注于研究原材料价格波动对金融市场的连锁反应，通过大量数据分析撰写报告。林教授受一家大型跨国公司委托，为其制定应对国际市场变化的新战略。卡洛斯面对原材料价格上涨，决定调整企业生产方向，他先调研市场需求，再组建新研发团队，最终成功推出适应市场变化的新产品。2006年，国际贸易政策出现一些调整，各方都在根据新政策重新布局和规划。",
+    "MultipleOptions": "A. 21世纪初国际贸易环境复杂，有玛丽、大卫、林教授、卡洛斯四位人物。2005年原材料价格波动，2006年政策调整。玛丽参与研讨会，大卫研究金融市场，林教授制定战略，卡洛斯调整企业生产方向。\nB. 人物有来自法国的玛丽、英国的大卫、中国的林教授、巴西的卡洛斯。21世纪初国际贸易环境复杂，2005年原材料价格波动带来挑战，2006年政策调整。2005年玛丽参与国际贸易新秩序研讨会提出见解，大卫研究连锁反应写报告，林教授受委托制定新战略，卡洛斯先调研需求，再组建团队，推出新产品，2006年各方重新布局规划。\nC. 21世纪初全球化加速，国际贸易环境复杂，有四位人物。2005年原材料价格波动，2006年政策调整。玛丽、大卫、林教授、卡洛斯都做了相应事情。\nD. 有玛丽、大卫、林教授、卡洛斯四个人物。2005年和2006年有不同情况发生，他们做了不同事情。",
+    "Groundtruth": {
+      "OptimalOption": "B",
+      "AnswerAnalysis": "选择B选项的理由：B选项将人物信息以分组形式列出，详细梳理了事件背景按时间先后顺序，还对事件过程进行了详细展开，符合任务要求。A选项人物信息未分组，事件过程展开不够详细；C选项人物信息未分组，事件过程描述过于简略；D选项既未按要求梳理事件背景，人物信息也未分组，事件过程也不详细。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_49",
+        "rule_text": "如果文本中涉及事件过程，总结时需要将事件过程详细展开"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_75",
+        "rule_text": "如果文本中有人物信息，总结时需要将人物信息以分组形式列出"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_31",
+        "rule_text": "如果文本中涉及事件背景，总结时需要将事件背景按时间先后顺序详细梳理列出"
+      }
+    ],
+    "Context": "在20世纪60年代，冷战的阴霾笼罩着世界，国际局势紧张。当时，有两位重要人物，一位是苏联的科学家安德烈，他专注于航天技术的研究；另一位是美国的工程师汤姆，热衷于探索新能源领域。1965年，安德烈所在的科研团队接到了一项重大任务——研发新型的载人航天飞船。他们开始进行大量的理论研究，反复试验各种材料和设计方案。经过两年的艰苦努力，新型飞船的雏形逐渐显现。与此同时，汤姆察觉到传统能源面临枯竭的危机，决定投身于太阳能的深度开发。他先是组建了一个跨学科的研究小组，接着四处寻找合适的实验场地。经过一番周折，终于在沙漠地区找到了理想之地，随后便开始了漫长而复杂的实验过程。到了70年代，国际形势有所缓和，科技交流也日益频繁。此时又出现了两位人物，英国的学者露西，擅长研究科技发展对社会文化的影响；法国的发明家皮埃尔，致力于机械制造的创新。1975年，露西开展了一项关于科技与文化融合的大型研究项目，她通过问卷调查、实地访谈等多种方式收集数据。皮埃尔则在这一年成功设计出一款新型的高效机械装置，该装置在工业领域引起了广泛关注。",
+    "MultipleOptions": "A. 20世纪60年代冷战，安德烈研究航天技术，汤姆研究新能源。70年代形势缓和，露西研究科技与文化，皮埃尔搞机械制造。\nB. 20世纪60年代，冷战紧张，苏联安德烈专注航天技术，美国汤姆投身新能源。安德烈团队1965年接研发飞船任务，经两年努力有雏形；汤姆察觉能源危机，组建小组找场地后开展太阳能实验。70年代形势缓和，英国露西研究科技与文化融合，法国皮埃尔设计新型机械装置。\nC. 20世纪60年代有安德烈和汤姆，70年代有露西和皮埃尔。安德烈团队研发飞船，汤姆开发太阳能，露西开展研究，皮埃尔设计装置。\nD. 60年代冷战，有安德烈、汤姆。70年代形势好，有露西、皮埃尔。",
+    "Groundtruth": {
+      "OptimalOption": "B",
+      "AnswerAnalysis": "最佳选项为B。B选项按时间先后详细梳理了事件背景，将不同时期的人物信息进行了分组列出，还详细展开了各个事件过程，符合要求。A选项没有详细展开事件过程；C选项没有按要求梳理事件背景和分组列出人物信息；D选项既未详细梳理事件背景，也未分组列出人物信息，事件过程也未详细展开。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_49",
+        "rule_text": "如果文本中涉及事件过程，总结时需要将事件过程详细展开"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_75",
+        "rule_text": "如果文本中有人物信息，总结时需要将人物信息以分组形式列出"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_31",
+        "rule_text": "如果文本中涉及事件背景，总结时需要将事件背景按时间先后顺序详细梳理列出"
+      }
+    ],
+    "Context": "在19世纪中叶，工业革命的浪潮席卷全球，许多国家的经济结构发生了巨大变革。当时，有三位重要人物在不同领域发挥着关键作用。来自英国的查尔斯，是一位卓越的发明家，痴迷于机械装置的创新设计；来自法国的艾丽，是一位敏锐的社会观察家，专注于研究工业发展对社会阶层的影响；来自德国的奥托，是一位有抱负的企业家，一心想要拓展海外市场。1855年，查尔斯受到纺织业生产效率低下的启发，决定研发一种新型纺织机械。他开始查阅大量资料，拜访行业专家，进行无数次的草图绘制和模型制作。经过三年的不懈努力，新型纺织机械终于问世，大大提高了纺织业的生产效率。同年，艾丽注意到工业城市中贫富差距日益扩大，决定深入研究这一现象。她穿梭于工厂和贫民窟之间，与不同阶层的人交流，收集大量一手资料。基于这些资料，她撰写了一份详细的报告，揭示了工业发展背后隐藏的社会问题。奥托则在1858年，看准了海外市场的潜力，决定开拓亚洲市场。他先派遣团队进行市场调研，了解当地需求和竞争情况，然后精心挑选合作伙伴，逐步建立销售网络。到了19世纪70年代，第二次工业革命的曙光初现，新的科技成果不断涌现。此时，又出现了两位人物，美国的乔治，是一位勇于探索的科学家，致力于电力领域的研究；意大利的索菲亚，是一位有才华的设计师，专注于新型建筑材料的应用。1875年，乔治带领团队进行一系列电力实验，试图找到更高效的电力传输方式。他搭建复杂的实验装置，记录大量数据，经过多次失败后，终于取得了重要突破。索菲亚则在这一年接到了一个大型建筑项目，她运用新型建筑材料，设计出一座既美观又坚固的建筑，成为当时建筑界的典范之作。",
+    "MultipleOptions": "A. 在19世纪，有查尔斯、艾丽、奥托、乔治、索菲亚等人在不同领域活动。查尔斯研发纺织机械，艾丽研究贫富差距，奥托开拓亚洲市场，乔治研究电力，索菲亚设计建筑。工业革命和第二次工业革命是背景。\nB. 19世纪中叶工业革命，查尔斯、艾丽、奥托活动；19世纪70年代第二次工业革命，乔治、索菲亚出现。查尔斯研发纺织机械，艾丽写报告，奥托开拓市场，乔治做电力实验，索菲亚设计建筑。\nC. 在19世纪，先是工业革命，后第二次工业革命。查尔斯等五人在不同时间不同领域有行动，查尔斯为发明家，艾丽是社会观察家，奥托是企业家，乔治是科学家，索菲亚是设计师。\nD. 在19世纪中叶工业革命浪潮下，不同人物有着不同行动。人物分组如下：来自英国的发明家查尔斯、来自法国的社会观察家艾丽、来自德国的企业家奥托、来自美国的科学家乔治、来自意大利的设计师索菲亚。事件背景按时间先后梳理为：19世纪中叶工业革命使许多国家经济结构变革，19世纪70年代第二次工业革命曙光初现。事件过程详细展开为：1855年查尔斯受纺织业现状启发，经三年努力研发出新型纺织机械；同年艾丽关注贫富差距，深入调研后撰写报告；1858年奥托开拓亚洲市场，先调研后挑选伙伴建立网络；1875年乔治为找高效电力传输方式做大量实验取得突破，索菲亚用新型材料设计出典范建筑。",
+    "Groundtruth": {
+      "OptimalOption": "D",
+      "AnswerAnalysis": "选择D选项的理由：该选项按要求将人物信息分组列出，按时间先后详细梳理了事件背景，还详细展开了事件过程，全面概括了文本内容。A选项没有将人物信息分组，事件背景和过程梳理不详细；B选项没有对人物信息分组，事件背景和过程的阐述不够细致；C选项人物信息未分组，事件背景和过程的呈现也不符合要求。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_49",
+        "rule_text": "如果文本中涉及事件过程，总结时需要将事件过程详细展开"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_75",
+        "rule_text": "如果文本中有人物信息，总结时需要将人物信息以分组形式列出"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_31",
+        "rule_text": "如果文本中涉及事件背景，总结时需要将事件背景按时间先后顺序详细梳理列出"
+      }
+    ],
+    "Context": "在19世纪末，第二次工业革命正如火如荼地进行，社会处于快速变革时期。当时有四位重要人物，来自美国的企业家亨利，他极具商业头脑，一直关注新兴的汽车制造行业；来自英国的发明家詹姆斯，在电气领域有着诸多创新想法；来自德国的科学家卡尔，专注于化学研究；来自法国的工程师路易，擅长机械设计改良。1890年，亨利看到汽车行业的巨大发展潜力，决定创办一家汽车制造公司。他先是四处招募优秀的技术人才，又投入大量资金购买先进设备，经过一系列筹备，公司终于成立。1892年，詹姆斯察觉到电气照明在日常生活中的需求日益增长，便着手研发新型的灯泡。他进行了无数次的材料试验，尝试不同的设计方案，经过长时间努力，成功研发出一款寿命更长、亮度更高的灯泡。同年，卡尔所在的科研团队接到一项重要任务，研发一种新型的化学合成材料。他们开始进行大量的理论计算和实验验证，经过几年的钻研，终于取得突破。路易则在1895年，受一家大型工厂委托，对其生产设备进行机械设计改良。他先是深入了解工厂的生产流程和需求，然后精心设计改良方案，逐步推进改良工作，大大提高了生产效率。到了20世纪初，随着科技的进一步发展，社会对能源的需求不断变化。此时又出现了两位人物，来自意大利的科学家玛利亚，致力于新能源的开发研究；来自俄国的工程师尼古拉，专注于铁路交通的优化。1903年，玛利亚带领团队开展关于太阳能利用的研究项目，她通过实地考察、数据分析等方式，努力寻找更高效的太阳能转化方法。尼古拉则在1905年，负责一个大型铁路建设项目，他精心规划路线，严格把控工程质量，确保项目顺利完成。",
+    "MultipleOptions": "A. 19世纪末到20世纪初，社会变革，有亨利、詹姆斯、卡尔、路易、玛利亚、尼古拉等人。亨利创办汽车公司，詹姆斯研发灯泡，卡尔团队研发材料，路易改良设备，玛利亚研究太阳能，尼古拉负责铁路项目。\nB. 19世纪末，第二次工业革命，社会变革。有来自美国的亨利、英国的詹姆斯、德国的卡尔、法国的路易。亨利1890年创办汽车公司，詹姆斯1892年研发灯泡，卡尔1892年团队研发材料，路易1895年改良设备。20世纪初，能源需求变，有意大利的玛利亚、俄国的尼古拉。玛利亚1903年研究太阳能，尼古拉1905年负责铁路项目。\nC. 19世纪末，社会在变革，有几个重要人物。亨利关注汽车行业，詹姆斯在电气领域有想法，卡尔搞化学研究，路易擅长机械改良。后来他们都做了些事，20世纪初又有新人物，玛利亚研究新能源，尼古拉搞铁路交通。\nD. 19世纪末到20世纪初，有很多人做了不同的事。亨利创办汽车公司，詹姆斯研发灯泡，卡尔团队研发材料，路易改良设备，玛利亚研究太阳能，尼古拉负责铁路项目。",
+    "Groundtruth": {
+      "OptimalOption": "B",
+      "AnswerAnalysis": "最佳选项为B。B选项按时间先后顺序详细梳理了19世纪末到20世纪初的事件背景，将不同国家、不同领域的人物以分组形式列出，还详细展开了每个人物在不同时间的具体行动和工作过程，符合总结要求。A选项没有详细梳理事件背景，人物信息分组不清晰，事件过程展开不够详细。C选项事件背景梳理不清晰，人物信息未分组，事件过程过于简略。D选项事件背景缺失，人物信息未分组，事件过程展开不充分。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_105",
+        "rule_text": "总结需要英文输出，段落首字母应大写并遵循英语语法规则"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_50",
+        "rule_text": "如果文本中涉及事件过程，总结时需要把事件过程放在总结末尾"
+      }
+    ],
+    "Context": "在古代，不同文明都有着独特的发展轨迹。埃及文明中，法老被视为神明的化身，掌握着至高无上的权力。他们驱使大量奴隶修建宏伟的金字塔，这些金字塔不仅是法老的陵墓，更是古埃及人智慧与技艺的结晶。在古希腊，城邦制度繁荣发展，民主政治萌芽。雅典作为其中的代表，公民们积极参与政治事务，通过公民大会等形式决定城邦的重大事项。哲学家们在街头巷尾探讨着世界的本质、伦理道德等问题，苏格拉底、柏拉图和亚里士多德等先哲的思想影响深远。罗马文明则以其强大的军事力量和完善的法律体系闻名。罗马军团四处征战，扩张领土，建立起庞大的帝国。《十二铜表法》等法律的制定，为社会秩序提供了保障。中世纪时期，欧洲陷入了黑暗时代，教会势力崛起并逐渐掌控了社会的各个方面。人们的生活受到严格的宗教规范约束，科学发展受到极大限制。但在东方，中国的唐宋时期却呈现出一片繁荣景象。经济上，商业发达，城市兴起，出现了世界上最早的纸币“交子”。文化领域，诗词、绘画、书法等艺术形式蓬勃发展，涌现出众多杰出的文人墨客。科技方面，四大发明更是对世界文明的发展产生了巨大推动作用。日本在这一时期积极学习中国文化，进行大化改新，从政治制度到生活习俗都深受中国影响，逐渐走上封建化道路。",
+    "MultipleOptions": "A. In ancient times, different civilizations had their own characteristics. Egyptian pharaohs had great power. In Greece, democracy emerged and philosophers had an impact. Rome had a strong military and laws. In the Middle Ages, the church controlled Europe. In China, there was prosperity, and Japan learned from China. And then list the events of each civilization one by one at the end.\nB. Different civilizations in ancient times had unique development. Egypt had powerful pharaohs, Greece had democratic politics and great philosophers, Rome had military strength and laws, Europe was in the Dark Ages, China was prosperous, and Japan learned from China. But write it in Chinese.\nC. In ancient, different civilizations had special development. Egyptian pharaohs were powerful, Greek democracy and philosophers, Roman military and laws, European Dark Ages, Chinese prosperity, Japanese learning from China. And put the events in a mess at the end without correct grammar.\nD. In ancient times, different civilizations had unique development paths. In Egyptian civilization, pharaohs held supreme power. In ancient Greece, the city - state system thrived and democratic politics emerged. Roman civilization was famous for its military and legal system. During the Middle Ages, the church controlled Europe. In the East, China was prosperous and Japan learned from China. Then describe the development process of each civilization at the end, and it is in English with correct grammar and capitalized first letters of paragraphs.",
+    "Groundtruth": {
+      "OptimalOption": "D",
+      "AnswerAnalysis": "选择D选项是因为它以英文输出，段落首字母大写且遵循英语语法规则，同时将各文明发展的事件过程放在了总结末尾，并且没有提及数据内容。A选项虽然提到将事件放在末尾，但表述混乱；B选项最后指出中文书写，不符合输出格式要求；C选项语法错误，事件放置混乱，均不符合指令要求。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_105",
+        "rule_text": "总结需要英文输出，段落首字母应大写并遵循英语语法规则"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_50",
+        "rule_text": "如果文本中涉及事件过程，总结时需要把事件过程放在总结末尾"
+      }
+    ],
+    "Context": "在近代历史的长河中，不同国家经历着各异的变革与发展。英国，作为曾经的海上霸主，率先开启工业革命的大门。在工业革命初期，大量农民离开土地涌入城市，工厂如雨后春笋般建立起来。这些工厂里，工人长时间劳作，生活条件艰苦。随着工业的进一步发展，英国的经济实力迅速增强，其产品远销世界各地。与此同时，法国正处于社会动荡时期，封建制度的腐朽引发了民众的强烈不满。启蒙运动的思想在法国广泛传播，为法国大革命埋下了种子。法国大革命爆发后，民众纷纷走上街头，推翻了封建王朝。然而，革命过程中也充满了曲折与斗争，雅各宾派专政时期实施了一些激进政策。而在美国，独立战争胜利后，建立起了民主共和制国家。但内部南北经济制度差异巨大，北方以工业为主，南方则依赖种植园奴隶制经济。这种差异逐渐引发了南北矛盾，最终导致了美国内战的爆发。内战期间，林肯政府颁布了《解放黑人奴隶宣言》，扭转了战局，为北方的胜利奠定了基础。战后，美国开始大力发展工业，逐步崛起成为世界强国。在亚洲，日本通过明治维新，全面学习西方先进技术与制度，从一个封建落后的国家迅速转变为资本主义强国。明治维新涉及政治、经济、军事、文化等多个方面，改革措施包括建立中央集权政府、引进西方技术发展近代工业、实行义务教育等。而中国在近代则遭受列强侵略，签订了一系列不平等条约，国家主权丧失，沦为半殖民地半封建社会。但中国人民从未停止抗争，从太平天国运动到义和团运动，再到辛亥革命，每一次抗争都推动着中国社会的进步。",
+    "MultipleOptions": "A. In modern times, different countries have different experiences. The UK had the Industrial Revolution, France had the French Revolution, the US had the Civil War, Japan had the Meiji Restoration, and China was invaded but the people fought back. The events in each country led to their respective developments. \nB. Different countries in modern history have various changes. UK started the Industrial Revolution. France experienced social unrest and the French Revolution. US had issues between the North and South and the Civil War. Japan became strong through Meiji Restoration. China was invaded. These events shaped their development. \nC. In modern history, different countries have all changed. The UK's Industrial Revolution, France's social situation and revolution, the US's internal problems and Civil War, Japan's Meiji Restoration, and China's being invaded and people's resistance. All these made them develop. \nD. In modern history, different countries have undergone various reforms and developments. The UK, once the maritime hegemon, took the lead in starting the Industrial Revolution, which led to economic growth. France experienced social turmoil, with the spread of Enlightenment ideas leading to the French Revolution. In the US, after gaining independence, the difference between the northern industrial economy and the southern plantation economy caused the Civil War. After the war, the US developed rapidly. In Asia, Japan became a capitalist power through the Meiji Restoration. China, on the other hand, was invaded by foreign powers, but the Chinese people continuously fought for progress.",
+    "Groundtruth": {
+      "OptimalOption": "D",
+      "AnswerAnalysis": "选择D选项是因为它全面涵盖了不同国家在近代的主要发展变革等事件，并且按照要求以英文输出，首字母大写且语法正确。A选项表述较为简略笼统，没有清晰呈现各国发展的逻辑关系；B选项同样表述简略，且对各国发展描述不够完整；C选项不仅表述简略，而且句子结构和语法存在一些问题，相比之下D选项最为符合要求。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_105",
+        "rule_text": "总结需要英文输出，段落首字母应大写并遵循英语语法规则"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_50",
+        "rule_text": "如果文本中涉及事件过程，总结时需要把事件过程放在总结末尾"
+      }
+    ],
+    "Context": "在现代社会，科技飞速发展，不同领域都发生着日新月异的变化。在医疗领域，许多科研团队都在致力于攻克各种疑难病症。比如有一支来自美国的科研小组，他们长期研究癌症的治疗方法。他们先是进行大量的文献调研，了解过往的研究成果和不足。然后，开展一系列的实验，涉及细胞培养、药物测试等多个环节。在教育领域，线上教育逐渐兴起。许多在线教育平台纷纷涌现，为学生提供了多样化的学习资源。有些平台针对不同年龄段的学生设计了个性化的课程体系，从基础学科到兴趣特长培养，一应俱全。在交通领域，新能源汽车成为研究热点。众多汽车制造商都投入大量资金进行研发。一些公司专注于电池技术的提升，力求延长汽车的续航里程；另一些则注重智能化驾驶系统的开发，以提高驾驶的安全性和便捷性。此外，环保问题也备受关注。许多环保组织积极开展活动，倡导节能减排。他们通过宣传、教育等方式，提高公众的环保意识。有些组织还参与到具体的环保项目中，如植树造林、海洋垃圾清理等。",
+    "MultipleOptions": "A. In modern society, technology develops fast. In medical field, a US research group studies cancer treatment. In education field, online education rises. In transportation field, new energy vehicles are popular. In environmental protection field, organizations advocate activities. They do literature research, experiments, offer learning resources, develop battery and driving systems, and promote environmental protection. \nB. In modern society, technology has a rapid development. There are changes in many fields. In medical, a US team is researching cancer treatment. In education, online education platforms appear. In transportation, new energy vehicles are studied. In environment, organizations work on protection. They first research literature, then experiment, offer resources, develop technologies and carry out activities. \nC. In modern society, technology is advancing rapidly. In the medical field, a research group from the US is finding cancer treatment methods. In the education field, online education has emerged. In the transportation field, new energy vehicles are a focus. In the environmental field, organizations are concerned about protection. They conduct literature research, experiments, offer learning resources, develop battery and intelligent driving systems, and promote environmental protection activities. \nD. In modern society, technology develops quickly. There are many changes in different areas. In medical area, a US group is researching cancer. In education area, online education comes up. In transportation area, new energy cars are hot. In environment area, organizations are doing things for protection. They do research, experiment, provide resources, develop technologies and carry out environmental protection work.",
+    "Groundtruth": {
+      "OptimalOption": "C",
+      "AnswerAnalysis": "最佳选项为C。C选项用英文输出，首字母大写且语法正确，将各领域关键信息准确提取整合，把事件过程放在了合适位置。A选项虽然涵盖关键信息，但语法和表达稍显混乱；B选项语法和表达也存在一些问题，且结构不够清晰；D选项表述较为简单随意，没有很好地整合信息和遵循语法规范。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_105",
+        "rule_text": "总结需要英文输出，段落首字母应大写并遵循英语语法规则"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_50",
+        "rule_text": "如果文本中涉及事件过程，总结时需要把事件过程放在总结末尾"
+      }
+    ],
+    "Context": "在当今全球化的时代背景下，文化交流日益频繁。不同国家的独特文化元素相互碰撞、融合，产生了许多有趣的现象。许多城市都举办了丰富多彩的文化节活动。在欧洲的一个知名文化节上，来自世界各地的艺术家们汇聚一堂。有来自亚洲的传统舞者，她们身着绚丽的服饰，用优美的舞姿展示着东方文化的韵味；有来自非洲的鼓手，他们激情四溢地敲击着鼓点，传递着非洲大陆的热情与活力；还有来自南美洲的画家，在现场挥毫泼墨，以独特的色彩和笔触描绘着家乡的风土人情。同时，科技的进步也对文化传播产生了深远影响。互联网的普及让各种文化作品能够迅速传播到全球各个角落。人们可以通过在线平台轻松欣赏到来自不同国家的电影、音乐和文学作品。然而，在文化交流与传播的过程中，也面临着一些挑战。例如，文化误解时有发生，部分人由于对其他文化缺乏深入了解，可能会产生偏见。而且，一些小众文化在全球化的浪潮下，面临着被主流文化淹没的风险。为了应对这些问题，许多组织和机构积极开展文化教育活动。他们通过举办讲座、培训课程等方式，提高人们对不同文化的认知和理解。一些学校也将多元文化教育纳入课程体系，从小培养学生的跨文化交流能力。",
+    "MultipleOptions": "A. In globalization, there are cultural exchanges. There are cultural festivals. Artists from different places show their cultures. Technology affects cultural spread. There are challenges and solutions. Many cities hold events. \nB. In today's world, cultural exchanges happen a lot. Different cultures mix. There are cultural festivals with artists from various regions. Technology helps cultural spread. But there are problems like misunderstandings and risks for niche cultures. So, educational activities are carried out. \nC. In the era of globalization, cultural exchanges are frequent. Different countries' cultures interact. There are cultural festivals where artists display their cultures. Technology impacts cultural dissemination. Challenges exist and organizations and schools take actions. \nD. In today's globalized era, cultural exchanges are becoming increasingly frequent. Different countries' unique cultural elements collide and integrate, leading to many interesting phenomena. Many cities hold colorful cultural festival activities. At a well-known cultural festival in Europe, artists from around the world gather. Asian traditional dancers show the charm of Eastern culture with their beautiful costumes and graceful dances; African drummers passionately play the drums, transmitting the enthusiasm and vitality of the African continent; South American painters create works on the spot, depicting the local customs of their hometowns with unique colors and brushstrokes. The progress of technology has also had a profound impact on cultural dissemination. The popularity of the Internet allows various cultural works to spread quickly to every corner of the world. People can easily enjoy movies, music, and literary works from different countries through online platforms. However, there are also some challenges in the process of cultural exchange and dissemination, such as cultural misunderstandings and the risk of some niche cultures being overwhelmed by mainstream cultures. To address these issues, many organizations and institutions actively carry out cultural education activities, and some schools also incorporate multicultural education into the curriculum system.",
+    "Groundtruth": {
+      "OptimalOption": "D",
+      "AnswerAnalysis": "最佳选项为D，该选项全面涵盖了文本中的文化交流背景、文化节活动、科技影响、面临挑战以及应对措施等要点，并且以英文准确输出，语法正确，段落首字母大写，同时将文化节活动这一事件过程放在了合适位置。A选项表述过于简略，未能完整涵盖文本要点；B选项同样表述简略，要点缺失；C选项虽然提及了主要内容，但整体表述不够详细全面，相比之下D选项更符合要求。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_105",
+        "rule_text": "总结需要英文输出，段落首字母应大写并遵循英语语法规则"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_50",
+        "rule_text": "如果文本中涉及事件过程，总结时需要把事件过程放在总结末尾"
+      }
+    ],
+    "Context": "在科技飞速发展的当下，许多领域都发生了翻天覆地的变化。在农业领域，现代化技术不断革新传统种植方式。一些大型农场采用了智能灌溉系统，该系统可以根据土壤湿度和作物需水量精准供水，大大提高了水资源利用率。同时，无人机在农业中的应用也日益广泛，它能快速对大面积农田进行病虫害监测。在娱乐领域，虚拟现实（VR）和增强现实（AR）技术给人们带来全新体验。许多主题公园推出了基于这些技术的游乐项目，游客仿佛置身于奇幻世界。游戏产业也借助这些技术开发出沉浸式游戏，吸引了大量玩家。在金融领域，移动支付迅速普及。人们出门无需携带现金，只需通过手机就能完成各种交易。网上银行也让人们可以随时随地管理自己的财务。各大银行还不断推出创新金融产品，以满足不同客户的需求。然而，这些发展也带来了一些问题。比如在农业方面，过度依赖技术可能导致部分农民就业困难；娱乐领域中，长时间沉浸在虚拟世界可能影响人们的身心健康；金融领域则面临着网络安全风险，如信息泄露、支付诈骗等。",
+    "MultipleOptions": "A. In the current technological development, there are changes in many fields. In agriculture, modern technologies are used. In entertainment, VR and AR technologies are applied. In finance, mobile payment and online banking are popular. But there are problems too. \nB. In the era of rapid tech development, many areas have changed. In agriculture, new tech is changing traditional ways. In entertainment, new tech brings new experiences. In finance, mobile payment and online banking are here. And there are some issues. \nC. In the current era of rapid technological development, many fields have undergone changes. In the agricultural field, modern technologies are innovating traditional planting methods, in the entertainment field, VR and AR technologies bring new experiences, and in the financial field, mobile payment and online banking are popular. However, there are problems such as farmer unemployment, impacts on health, and cybersecurity risks. \nD. In the current era of rapid technological development, many fields have undergone tremendous changes. In the agricultural field, modern technologies are constantly innovating traditional planting methods. Some large farms have adopted intelligent irrigation systems and drones for pest monitoring. In the entertainment field, VR and AR technologies bring new experiences in theme parks and the game industry. In the financial field, mobile payment is rapidly popularized and online banking offers convenience, along with innovative financial products. However, these developments also bring problems such as potential farmer unemployment in agriculture, impacts on physical and mental health in entertainment, and cybersecurity risks in finance.",
+    "Groundtruth": {
+      "OptimalOption": "D",
+      "AnswerAnalysis": "最佳选项为D。D选项全面总结了各领域的发展情况以及带来的问题，且符合英文输出格式要求，事件过程也放在了末尾。A选项表述过于简略，没有涵盖各领域具体发展情况；B选项同样过于简略，没有完整呈现内容；C选项虽然提及了一些内容，但整体总结不够全面细致，相比之下D选项更符合要求。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_80",
+        "rule_text": "如果文本中有观点内容，总结时需要将观点内容用特定符号分隔列出"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_59",
+        "rule_text": "如果文本中有引用内容，总结时需要概括引用内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_97",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要将情感倾向相关内容以列表形式呈现"
+      }
+    ],
+    "Context": "在当今数字化时代，互联网的普及深刻改变了人们的生活方式。一方面，社交媒体成为人们沟通交流的重要平台，许多人认为它极大地拉近了人与人之间的距离，让信息的传播变得更加迅速和广泛。比如，一条有趣的短视频可能在短短几小时内就获得数百万的点赞和分享。另一方面，也有人担忧社交媒体会导致人们过度沉迷，影响现实中的社交互动以及个人的学习和工作效率。同时，网络购物的兴起给消费者带来了极大的便利，人们无需出门，只需轻点鼠标或滑动屏幕，就能购买到来自世界各地的商品。据统计，去年某知名电商平台的销售额突破了千亿元大关。然而，网络购物也存在一些问题，像商品质量参差不齐、虚假宣传等情况屡见不鲜。在教育领域，在线教育蓬勃发展，打破了传统教育的时空限制，为许多人提供了更多的学习机会。但部分学生反映，在线学习缺乏与老师和同学的面对面互动，学习效果可能会受到一定影响。而且，随着技术的不断进步，人工智能也逐渐融入到各个行业，一些专家指出它将成为推动经济发展的重要力量，但同时也引发了人们对就业结构变化以及隐私安全等方面的担忧。",
+    "MultipleOptions": "A. 在数字化时代，互联网改变生活方式，社交媒体有拉近人际距离、信息传播快的好处，也有让人过度沉迷的问题；网络购物便利但有商品质量和虚假宣传问题；在线教育提供更多学习机会但学习效果受影响；人工智能融入各行业且引发就业和隐私安全担忧。某知名电商平台去年销售额突破千亿元大关。[积极：互联网普及改变生活方式，社交媒体有好处，网络购物便利，在线教育提供机会，人工智能融入各行业；消极：社交媒体有问题，网络购物有问题，在线学习效果受影响，人工智能引发担忧]\nB. 数字化时代，互联网改变生活，社交媒体、网络购物、在线教育、人工智能都有发展。社交媒体拉近人际距离但让人沉迷，网络购物便利但有问题，在线教育提供机会但效果存疑，人工智能融入各行业但引发担忧。某电商平台去年销售额不错。[积极：互联网改变生活，各方面有发展；消极：各方面有问题]\nC. 互联网在数字化时代改变生活，社交媒体、网络购物、在线教育、人工智能都有变化。社交媒体有好有坏，网络购物有问题，在线教育有影响，人工智能有担忧。某平台销售额高。[积极：互联网改变生活；消极：各方面有不足]\nD. 数字化时代互联网改变生活，社交媒体、网络购物、在线教育、人工智能都在发展。社交媒体有影响，网络购物有问题，在线教育有效果问题，人工智能有担忧。",
+    "Groundtruth": {
+      "OptimalOption": "A",
+      "AnswerAnalysis": "选项A将人们对于社交媒体、在线学习、人工智能等方面的观点内容用清晰的方式表述出来，概括了电商平台销售额这一引用内容，并且以列表形式梳理了积极和消极的情感倾向相关内容，符合要求。选项B对引用内容概括过于简略，情感倾向梳理不够细致全面。选项C观点内容表述不清晰，引用内容概括模糊，情感倾向梳理简单粗糙。选项D没有体现观点内容的分隔列出，未概括引用内容，也没有梳理情感倾向，均不符合规则要求。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_80",
+        "rule_text": "如果文本中有观点内容，总结时需要将观点内容用特定符号分隔列出"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_59",
+        "rule_text": "如果文本中有引用内容，总结时需要概括引用内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_97",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要将情感倾向相关内容以列表形式呈现"
+      }
+    ],
+    "Context": "在当代社会，体育运动的发展备受瞩目。一方面，竞技体育的舞台上，众多运动员为了荣誉奋力拼搏。比如在奥运会这样的顶级赛事中，各国选手各展绝技。短跑运动员们如离弦之箭般飞驰在赛道上，他们坚信通过不懈的训练和顽强的毅力就能打破世界纪录，展现人类极限；体操运动员们在器械上做出令人惊叹的高难度动作，追求完美的姿态和极致的表现。另一方面，大众体育也蓬勃兴起。越来越多的人意识到运动对健康的重要性，秉持着‘每天锻炼一小时，健康生活一辈子’的理念，纷纷参与到各类健身活动中。公园、健身房到处都是运动的身影。有人选择慢跑，享受汗水流淌的畅快；有人热衷于瑜伽，追求身心的平衡与和谐。然而，体育运动的发展也面临一些挑战。部分竞技体育项目存在兴奋剂问题，这严重违背了体育精神；大众体育则面临场地不足、设施不完善等困境。但总体而言，人们对体育运动的热爱和追求健康生活的信念是坚定不移的，相信未来体育运动将朝着更加公平、健康、多元的方向发展。",
+    "MultipleOptions": "A. 当代社会体育运动发展受关注。竞技体育中运动员奋力拼搏，大众体育兴起，人们参与健身活动。体育运动发展有挑战，竞技体育有兴奋剂问题，大众体育有场地设施困境。\nB. 当代社会体育运动发展受关注。竞技体育里运动员在赛事上各展绝技，大众体育兴起，人们秉持‘每天锻炼一小时，健康生活一辈子’理念参与健身。体育运动有挑战，人们对运动热爱且相信未来会更好。\nC. 当代社会体育运动发展受关注。竞技体育中运动员追求打破世界纪录和完美表现，大众体育兴起，有人慢跑有人练瑜伽。体育运动有挑战，情感倾向是热爱和信念。\nD. 当代社会体育运动发展受关注。竞技体育中，运动员在奥运会等赛事奋力拼搏，追求打破世界纪录和完美表现；大众体育兴起，人们秉持运动有益健康理念参与健身活动，如慢跑、瑜伽等。引用内容概括为：人们秉持‘每天锻炼一小时，健康生活一辈子’理念。观点内容用分隔列出：短跑运动员坚信通过训练和毅力能打破世界纪录；人们相信未来体育运动将朝更公平、健康、多元方向发展。情感倾向相关内容以列表呈现：对体育运动的热爱、追求健康生活的信念。体育运动发展面临挑战，竞技体育有兴奋剂问题，大众体育有场地和设施困境。 ",
+    "Groundtruth": {
+      "OptimalOption": "D",
+      "AnswerAnalysis": "D选项为最佳选项，它全面概括了文本内容，处理了引用内容、观点内容，还呈现了情感倾向相关内容，符合生成通用文本总结的要求。A选项没有处理引用内容、观点内容和情感倾向相关内容；B选项没有将观点内容用特定符号分隔列出，也未将情感倾向相关内容以列表呈现；C选项没有概括引用内容，观点内容呈现不完整。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_80",
+        "rule_text": "如果文本中有观点内容，总结时需要将观点内容用特定符号分隔列出"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_59",
+        "rule_text": "如果文本中有引用内容，总结时需要概括引用内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_97",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要将情感倾向相关内容以列表形式呈现"
+      }
+    ],
+    "Context": "在当今社会，人们对于城市发展有着不同的看法。许多人认为，城市应该更加注重生态环境保护，打造绿色、可持续发展的空间。例如，一些城市已经开始大力推广垃圾分类政策，通过宣传教育，让居民了解垃圾分类的重要性，引导他们积极参与。然而，也有人觉得城市发展的重点应是经济建设，只有经济繁荣了，才能为人们提供更好的生活条件。与此同时，城市中的文化遗产保护也成为了热门话题。有些文化古迹承载着城市的历史记忆，如古老的建筑、传统的街区等。专家指出，我们既要保护这些文化遗产，又要让它们与现代城市发展相融合。在城市交通方面，随着私家车数量的不断增加，交通拥堵问题日益严重。为了解决这一问题，一些城市加大了公共交通的投入，建设地铁、轻轨等轨道交通。但也有市民抱怨，公共交通的便利性还不够，换乘不够便捷。而且，城市的快速发展也带来了住房问题，房价居高不下让很多年轻人感到压力巨大。一部分人呼吁政府加大保障性住房的供给，以缓解住房紧张的局面。",
+    "MultipleOptions": "A. 人们对城市发展看法多样，有注重生态环保打造可持续空间、经济建设等观点；文化遗产保护受关注；城市交通拥堵，加大公共交通投入；住房问题突出，房价高。\nB. 人们对城市发展看法不一，观点有：城市应注重生态环保打造可持续空间，如推广垃圾分类；也有人认为重点是经济建设。文化遗产保护受关注，要与现代城市发展相融合。城市交通拥堵，虽加大公共交通投入但便利性不足。住房问题突出，房价高，部分人呼吁加大保障性住房供给。情感倾向相关内容：有人抱怨公共交通便利性不够；很多年轻人对房价高感到压力巨大。\nC. 城市发展面临多种情况，生态环保、经济建设受关注，文化遗产要保护，交通拥堵，住房问题突出。\nD. 人们对城市发展有不同看法，生态环保、经济建设等方面都有涉及，还有文化遗产保护、交通和住房问题。",
+    "Groundtruth": {
+      "OptimalOption": "B",
+      "AnswerAnalysis": "选择B选项是因为它对给定文本进行了全面总结，涵盖了各种观点，概括了引用内容（如对专家关于文化遗产保护观点的概括），还梳理了情感倾向相关内容。A选项没有列出情感倾向相关内容；C选项过于简略，没有将观点内容按要求用特定符号分隔列出，也未提及情感倾向；D选项同样过于简略，没有对引用内容进行概括，也未梳理情感倾向相关内容。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_80",
+        "rule_text": "如果文本中有观点内容，总结时需要将观点内容用特定符号分隔列出"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_59",
+        "rule_text": "如果文本中有引用内容，总结时需要概括引用内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_97",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要将情感倾向相关内容以列表形式呈现"
+      }
+    ],
+    "Context": "在当今数字化浪潮下，互联网金融异军突起。一方面，众多新型金融平台不断涌现，它们凭借便捷的操作和个性化的服务，吸引了大量用户。不少人觉得这极大地改变了传统金融模式，让金融服务更加贴近大众。例如，一些小额贷款平台为小微企业提供了快速的资金支持，帮助它们解决融资难题。另一方面，也有人担忧互联网金融的安全性，毕竟网络的开放性使得信息泄露风险增大。同时，电商行业也发展得如火如荼，各种促销活动层出不穷。许多商家通过精准的营销策略，如大数据分析用户偏好来推送商品，从而提高销售额。然而，电商市场也存在诸多问题，像虚假评价、恶意竞争等现象屡禁不止。此外，在线教育持续升温，打破了传统教育的时空限制，为学习者提供了丰富多样的课程。但部分用户反馈，在线教育缺乏有效的监督机制，学习效果难以保证。",
+    "MultipleOptions": "A. 当今数字化浪潮下，互联网金融兴起，有新型金融平台涌现；电商行业发展，有促销活动；在线教育升温。\nB. 当今数字化浪潮下，互联网金融兴起，有人认为改变传统金融模式让服务贴近大众，有人担忧安全性；电商行业发展但有虚假评价等问题；在线教育升温但学习效果难保证。同时概括了小额贷款平台为小微企业提供资金支持。\nC. 当今数字化浪潮下，互联网金融、电商行业、在线教育都在发展。互联网金融有新平台，电商行业有促销，在线教育课程丰富。\nD. 当今数字化浪潮下，互联网金融兴起，电商行业发展，在线教育升温，不过都有各自的问题。",
+    "Groundtruth": {
+      "OptimalOption": "B",
+      "AnswerAnalysis": "最佳选项为B。B选项既提取了人们对互联网金融的不同观点，概括了小额贷款平台对小微企业的支持这一引用内容，还梳理了对互联网金融安全性的担忧以及在线教育学习效果难以保证等情感倾向相关内容，符合要求。A选项没有体现观点内容、引用内容和情感倾向相关内容；C选项只是简单提及各行业的发展表现，未按规则处理相关内容；D选项过于简略，没有对观点、引用和情感倾向相关内容进行处理。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_80",
+        "rule_text": "如果文本中有观点内容，总结时需要将观点内容用特定符号分隔列出"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_59",
+        "rule_text": "如果文本中有引用内容，总结时需要概括引用内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_97",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要将情感倾向相关内容以列表形式呈现"
+      }
+    ],
+    "Context": "在当今社会，教育公平问题一直是人们热议的焦点。许多专家认为，教育资源的均衡分配是实现教育公平的关键。比如，偏远地区的学校往往缺乏优秀的教师和先进的教学设备，导致学生的学习条件相对较差。这无疑是教育不公平的一种体现。有学者引用相关研究数据表明，城市和农村学生在升学机会上存在明显差距。同时，随着互联网技术的飞速发展，在线教育成为了热门话题。不少人对其充满期待，觉得它能够打破地域限制，为更多学生提供优质教育资源，这是一种积极的情感倾向。然而，也有人担忧在线教育可能会因为网络不稳定、缺乏面对面互动等问题，影响学习效果，这又是一种消极的情感倾向。而且，在教育评价体系方面，当前过于注重考试成绩，这一观点也引发了广泛的讨论。很多人呼吁建立更加多元化的评价体系，以全面衡量学生的综合素质。",
+    "MultipleOptions": "A. 当今社会教育公平受关注，专家认为教育资源均衡分配重要，有学者指出城乡升学机会有差距。在线教育受关注，有人期待有人忧。教育评价体系重成绩遭讨论。\nB. 当今社会教育公平问题受关注，专家认为教育资源均衡分配是实现教育公平的关键；学者引用数据表明城乡升学机会有差距；在线教育引发不同情感倾向，积极的是期待打破地域限制提供资源，消极的是担忧影响学习效果；同时，教育评价体系过于重成绩的观点引发讨论，人们呼吁建立多元化评价体系。\nC. 当今社会教育公平问题被热议，在线教育成热门，教育评价体系有问题。\nD. 当今社会教育公平受关注，专家觉得教育资源分配要均衡，学者说城乡升学机会不同。在线教育有人期待有人担心，教育评价体系重成绩。",
+    "Groundtruth": {
+      "OptimalOption": "B",
+      "AnswerAnalysis": "选择B选项的理由是，该选项对给定文本进行总结时，提取了其中的观点内容，概括了引用内容，并将情感倾向相关内容以列表形式呈现，全面涵盖了文本中的关键信息。A选项没有将观点内容用特定符号分隔列出，对情感倾向相关内容的呈现也不够规范。C选项过于简略，没有按照规则处理观点、引用和情感倾向内容。D选项同样没有将观点内容用特定符号分隔列出，对各部分内容的处理不够准确全面。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_103",
+        "rule_text": "总结需要输出多个段落，每个段落的字数应控制在40到50字之间"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_63",
+        "rule_text": "如果文本中有引用内容，总结时需要将引用内容以段落形式呈现"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_81",
+        "rule_text": "如果文本中有观点内容，总结时需要将观点内容以段落形式呈现"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_17",
+        "rule_text": "如果文本中涉及事件结果，总结时需要将事件结果用特定符号分隔列出"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_52",
+        "rule_text": "如果文本中涉及事件过程，总结时需要将事件过程以相反顺序描述"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_15",
+        "rule_text": "如果文本中涉及事件结果，总结时需要将事件结果简化为关键词列出"
+      }
+    ],
+    "Context": "在一个阳光明媚的早晨，小明兴高采烈地出门去公园游玩。公园里人来人往，热闹非凡。小明看到湖边有一群人在钓鱼，他不禁停下脚步观看。这时，他听到旁边一位老者说：“钓鱼不仅是一种娱乐，更是一种修身养性的方式。”小明觉得很有道理。之后，小明又去了花园，欣赏着五颜六色的花朵。突然，天空中飘起了小雨，大家纷纷找地方避雨。小明也赶紧跑到一个亭子里。雨停后，小明带着愉快的心情回家了。在回家的路上，他心想这次公园之行真是太有趣了。而且他还从老者那里学到了关于钓鱼的新观点。同时，他经历了从出门游玩，到观看钓鱼、欣赏花朵、遇雨避雨，最后回家的过程。并且这次游玩的结果是他心情愉快，还收获了知识。",
+    "MultipleOptions": "A. 小明去公园游玩，先回家，接着雨停出亭子，然后避雨，再欣赏花朵、观看钓鱼。他心情愉快且收获知识。老者说钓鱼能修身养性。\nB. 小明公园游玩，经历回家、雨停、避雨、赏花、看钓鱼，收获知识心情好。老者认为钓鱼可修身养性。\nC. 小明去公园玩，最后回家，之前经历了很多事，心情不错还学到东西。老者有关于钓鱼的看法。\nD. 小明公园之行，先回家，然后有一系列活动，收获多心情好。老者谈钓鱼看法。",
+    "Groundtruth": {
+      "OptimalOption": "A",
+      "AnswerAnalysis": "A选项输出多个段落，按要求呈现了事件结果、过程以及观点内容。B选项没有按要求分段落，字数也未控制。C选项未分段落，对各部分处理也不符合要求。D选项同样未分段落，处理方式不满足规则。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_103",
+        "rule_text": "总结需要输出多个段落，每个段落的字数应控制在40到50字之间"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_63",
+        "rule_text": "如果文本中有引用内容，总结时需要将引用内容以段落形式呈现"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_81",
+        "rule_text": "如果文本中有观点内容，总结时需要将观点内容以段落形式呈现"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_17",
+        "rule_text": "如果文本中涉及事件结果，总结时需要将事件结果用特定符号分隔列出"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_52",
+        "rule_text": "如果文本中涉及事件过程，总结时需要将事件过程以相反顺序描述"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_15",
+        "rule_text": "如果文本中涉及事件结果，总结时需要将事件结果简化为关键词列出"
+      }
+    ],
+    "Context": "在一个宁静的午后，小李来到了图书馆。图书馆里安静极了，只有翻书的声音。小李在书架间徘徊，寻找一本心仪已久的书。终于，他找到了那本名为《时间简史》的书。他找了个角落坐下，开始认真阅读。书中有这样一段话：“宇宙是一个神秘而浩瀚的存在，我们对它的认知还只是冰山一角。”小李深受触动。这时，他听到旁边一位学者说：“阅读不仅能增长知识，还能开阔眼界，改变我们看待世界的方式。”小李觉得很有道理。阅读结束后，小李把书放回书架，带着满满的收获离开了图书馆。这次图书馆之行，他从寻找书籍，到阅读书籍，再到听完学者观点后结束离开。结果是他收获了知识，还受到了启发。",
+    "MultipleOptions": "A. 小李在图书馆找到《时间简史》阅读，书中说宇宙神秘浩瀚。学者称阅读有益，小李收获知识与启发后离开。\nB. 小李来到图书馆，找到书阅读，听到学者观点，最后带着收获离开。他收获知识，受到启发。\nC. 小李图书馆之行，先找书阅读，后听学者观点。结果是收获知识、受到启发。书中提到宇宙神秘。\nD. 首先，小李来到图书馆，在书架间找到《时间简史》并阅读，书中引用的对宇宙的描述值得关注。其次，小李听到学者关于阅读的观点，此观点有深刻意义。然后，他从听完观点，到阅读书籍，再到寻找书籍。最后，收获知识、受到启发。",
+    "Groundtruth": {
+      "OptimalOption": "D",
+      "AnswerAnalysis": "最佳选项为D，它满足了多个要求。输出多个段落且字数符合要求，呈现了引用和观点内容，按相反顺序描述事件过程并简化列出事件结果。A选项没有按要求输出多个段落，未体现事件过程相反顺序描述；B选项没有按要求输出多个段落，未呈现引用和观点内容；C选项没有按要求输出多个段落，事件过程描述不符合要求。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_103",
+        "rule_text": "总结需要输出多个段落，每个段落的字数应控制在40到50字之间"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_63",
+        "rule_text": "如果文本中有引用内容，总结时需要将引用内容以段落形式呈现"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_81",
+        "rule_text": "如果文本中有观点内容，总结时需要将观点内容以段落形式呈现"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_17",
+        "rule_text": "如果文本中涉及事件结果，总结时需要将事件结果用特定符号分隔列出"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_52",
+        "rule_text": "如果文本中涉及事件过程，总结时需要将事件过程以相反顺序描述"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_15",
+        "rule_text": "如果文本中涉及事件结果，总结时需要将事件结果简化为关键词列出"
+      }
+    ],
+    "Context": "在一个微风轻拂的傍晚，小张走进了一家美术馆。馆内灯光柔和，一幅幅画作错落有致地陈列着。小张慢慢地踱步，目光被一幅名为《星空》的画作吸引。他站在画前，仔细端详，这幅画色彩斑斓、笔触独特。此时，他听到旁边一位艺术评论家说道：“优秀的画作总能触动心灵，引发人们对生活与世界的无尽思考。”小张深以为然。继续前行，他又看到一幅描绘乡村风景的画，画中宁静的氛围让他沉醉。他心想：“艺术真是有着神奇的魅力，能将美好的瞬间定格。”参观结束后，小张走出美术馆，他先是沉浸于《星空》，后又陶醉在乡村风景画中，最后带着对艺术全新的感悟离开。此次美术馆之行，结果是他心灵受到触动，还获得了对艺术更深的理解。",
+    "MultipleOptions": "A. 小张参观美术馆，先看乡村风景画，后被《星空》吸引，听评论家观点，有感悟离开，结果是心灵触动、理解加深。优秀画作触动心灵，艺术能定格美好瞬间。\nB. 小张走进美术馆，被《星空》吸引，又看到乡村风景画。艺术评论家观点让他印象深刻，他觉得艺术有魅力。最后心灵受触动，对艺术理解加深。\nC. 小张参观美术馆，看到《星空》与乡村风景画，听到艺术评论家观点，内心有思考。此次参观让他心灵触动且对艺术理解加深。\nD. 小张在傍晚走进美术馆，先沉醉乡村风景画，再被《星空》吸引，听评论家观点后有感悟。结果：心灵触动、理解艺术更深。优秀画作触动心灵，艺术定格美好瞬间。",
+    "Groundtruth": {
+      "OptimalOption": "A",
+      "AnswerAnalysis": "A选项输出多个段落且字数符合要求，引用内容、观点内容单独成段，事件过程反向描述，事件结果简化为关键词列出，符合要求。B选项没有将引用和观点单独成段，事件过程未反向描述。C选项没有按要求输出多个段落，引用和观点未单独成段。D选项没有按要求输出多个段落，事件过程反向描述不完整。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_76",
+        "rule_text": "如果文本中有观点内容，总结时无需提及观点内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_98",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要将情感倾向相关内容用特定符号分隔列出"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_30",
+        "rule_text": "如果文本中涉及事件背景，总结时需要将事件背景与观点内容合并描述"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_110",
+        "rule_text": "如果文本是引用或参考文献，引用应按照APA格式或指定的引用风格进行排版"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_18",
+        "rule_text": "如果文本中涉及事件结果，总结时需要将事件结果以段落形式呈现"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_67",
+        "rule_text": "如果文本中有人物信息，总结时无需提及人物信息"
+      }
+    ],
+    "Context": "在一个雪花纷飞的冬日，小王来到了一座古老的城堡。这座城堡承载着数百年的历史，见证过无数的战争与和平，是当地著名的历史遗迹。城堡里阴森而静谧，墙壁上挂着一幅幅年代久远的画像。小王穿梭在各个房间，仔细打量着周围的一切。突然，他在一个角落里发现了一本破旧的日记。日记里记载着城堡曾经的辉煌，以及一些不为人知的故事。小王如获至宝，他坐在一旁认真地阅读起来。这时，他听到旁边一位历史学家感慨道：“历史是最好的教科书，它能让我们从过去吸取教训，更好地走向未来。”小王觉得很有道理。阅读完日记后，小王继续在城堡里探索。他看到城堡的大厅里摆放着一些古老的兵器，这些兵器仿佛在诉说着曾经的战火纷飞。小王心中不禁涌起一股对历史的敬畏之情。离开城堡时，小王回顾这段经历，他先是进入城堡，然后发现日记、聆听历史学家观点，接着继续探索。此次城堡之行，结果是他对城堡的历史有了更深入的了解，还收获了对历史的敬畏。",
+    "MultipleOptions": "A. 在冬日，小王来到承载数百年历史的城堡，发现日记并阅读，听到历史学家观点，继续探索看到古老兵器，离开时对城堡历史有更深入了解且收获敬畏。（敬畏之情）\nB. 冬日，一座城堡里有人发现日记、听到观点、看到兵器，离开时对城堡历史有了更深入了解，收获对历史的敬畏。（敬畏之情），城堡承载数百年历史，见证无数战争与和平\nC. 小王在冬日进入城堡，发现日记、聆听观点、看到兵器，最后对城堡历史有深入了解，收获敬畏。（敬畏之情）\nD. 在冬日的城堡中，有人发现日记阅读，听到历史学家感慨，看到兵器，结果是对城堡历史有更深入了解，收获对历史的敬畏。（敬畏之情），城堡有历史，见证战争与和平",
+    "Groundtruth": {
+      "OptimalOption": "B",
+      "AnswerAnalysis": "选择B的理由：未提及人物信息；合并了事件背景与观点内容；将事件结果以段落形式呈现；将情感倾向相关内容用特定符号分隔列出；未涉及引用内容所以无需处理引用格式；文本中无观点内容所以也未涉及观点内容处理。A选项没有将事件背景与观点内容很好合并描述；C选项没有将事件背景与观点内容合并，也未将事件结果以段落形式呈现；D选项事件背景与观点内容合并描述不够清晰，事件结果呈现也不符合要求。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_76",
+        "rule_text": "如果文本中有观点内容，总结时无需提及观点内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_98",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要将情感倾向相关内容用特定符号分隔列出"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_30",
+        "rule_text": "如果文本中涉及事件背景，总结时需要将事件背景与观点内容合并描述"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_110",
+        "rule_text": "如果文本是引用或参考文献，引用应按照APA格式或指定的引用风格进行排版"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_18",
+        "rule_text": "如果文本中涉及事件结果，总结时需要将事件结果以段落形式呈现"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_67",
+        "rule_text": "如果文本中有人物信息，总结时无需提及人物信息"
+      }
+    ],
+    "Context": "在一个秋风瑟瑟的日子里，小赵来到了一片古老的森林。这片森林，一直以来都是众多探险家向往的地方，它神秘而深邃，流传着许多不为人知的传说。小赵怀揣着对未知的好奇，踏入了这片森林。森林里，树木郁郁葱葱，阳光透过树叶的缝隙洒下，形成一片片光斑。小赵沿着蜿蜒的小路前行，途中看到了许多珍稀的植物。他不禁感叹大自然的神奇。突然，他听到一阵低沉的吼声，心中一惊，原来是一只小鹿在不远处。小赵慢慢靠近，小鹿却没有惊慌逃跑。小赵心想这小鹿真可爱。此时，小赵看到一位护林员正在给树木做标记。护林员说：“保护森林，就是保护我们人类自己的家园。”小赵觉得很对。继续深入森林，小赵发现了一个小木屋。木屋看起来有些陈旧，但充满了岁月的痕迹。小赵走进木屋，里面摆放着一些简单的家具。小赵在木屋里休息片刻后，离开了森林。这次森林之行，小赵先是进入森林，看到珍稀植物、小鹿，遇见护林员，又发现小木屋，最后离开。结果是他不仅领略了森林的神秘风光，还增强了保护森林的意识。",
+    "MultipleOptions": "A. 有人在秋风瑟瑟时进入一片神秘且流传着传说的古老森林，看到珍稀植物、小鹿，遇见护林员，发现小木屋，最后离开。情感倾向相关内容：感叹大自然神奇、觉得小鹿可爱。事件结果：领略了森林的神秘风光，增强了保护森林的意识。\nB. 小赵进入神秘森林，看到很多东西，还听到护林员说保护森林的话，最后离开森林，并且有了新意识。\nC. 有人进入森林，看到珍稀植物、小鹿，遇见护林员，发现小木屋，最后离开，还领略了风光和增强了意识，觉得大自然神奇、小鹿可爱。\nD. 小赵在秋风中进入神秘森林，看到各种事物，最后离开，结果是有了新收获。",
+    "Groundtruth": {
+      "OptimalOption": "A",
+      "AnswerAnalysis": "A选项为最佳选项。A选项没有提及人物信息，将情感倾向相关内容用特定方式分隔列出，按照段落形式呈现了事件结果，合并描述了事件背景与观点内容，没有涉及引用无需特殊排版，并且没有包含文本中的观点内容。B选项提及了人物信息，未按要求分隔列出情感倾向内容，也未按段落呈现事件结果；C选项提及了人物信息，且情感倾向内容没有用特定符号分隔列出；D选项提及了人物信息，未分隔列出情感倾向内容，也未按段落呈现事件结果。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_76",
+        "rule_text": "如果文本中有观点内容，总结时无需提及观点内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_98",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要将情感倾向相关内容用特定符号分隔列出"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_30",
+        "rule_text": "如果文本中涉及事件背景，总结时需要将事件背景与观点内容合并描述"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_110",
+        "rule_text": "如果文本是引用或参考文献，引用应按照APA格式或指定的引用风格进行排版"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_18",
+        "rule_text": "如果文本中涉及事件结果，总结时需要将事件结果以段落形式呈现"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_67",
+        "rule_text": "如果文本中有人物信息，总结时无需提及人物信息"
+      }
+    ],
+    "Context": "在一个骄阳似火的夏日，小红来到了海边。海边沙滩金黄，海浪一波又一波地涌来，发出悦耳的声响。小红满心欢喜地奔向大海，感受着海水的清凉。她觉得这简直是世界上最美好的事情。此时，她看到远处有一些人在进行冲浪运动，那潇洒的身姿让她心生羡慕。旁边一位冲浪爱好者兴奋地说：“冲浪能让你与大海亲密接触，体验无与伦比的刺激。”小红深以为然。接着，小红沿着沙滩漫步，看到沙滩上有许多五彩斑斓的贝壳。她蹲下身子，小心翼翼地捡起一些贝壳。突然，天空中乌云密布，一场暴雨即将来临。大家都匆忙往岸边的遮阳伞下跑。小红也赶紧躲了过去。暴雨过后，天空出现了一道美丽的彩虹。小红望着彩虹，心中满是喜悦。这次海边之行，小红先是来到海边，感受清凉海水，看到冲浪者，捡到贝壳，遇雨避雨，最后看到彩虹。结果是她度过了一段愉快的时光，还收获了许多美好的回忆。并且，据某知名海洋研究报告显示（作者：[姓名]，年份：[具体年份]），这片海域的生态环境近年来在逐渐改善。",
+    "MultipleOptions": "A. 有人来到海边，感受海水清凉，看到冲浪者、捡到贝壳，遇雨避雨，最后看到彩虹。情感倾向相关内容：满心欢喜、心生羡慕、喜悦。引用内容：（作者：[姓名]，年份：[具体年份]）这片海域的生态环境近年来在逐渐改善。此次海边之行的结果是度过了一段愉快的时光，还收获了许多美好的回忆。\nB. 有人来到海边，感受海水清凉，看到冲浪者、捡到贝壳，遇雨避雨，最后看到彩虹，还表达了觉得这是世界上最美好的事情等观点。情感倾向相关内容：满心欢喜、心生羡慕、喜悦。引用内容：（作者：[姓名]，年份：[具体年份]）这片海域的生态环境近年来在逐渐改善。此次海边之行度过了一段愉快的时光，还收获了许多美好的回忆。\nC. 小红来到海边，感受海水清凉，看到冲浪者、捡到贝壳，遇雨避雨，最后看到彩虹。情感倾向相关内容：满心欢喜、心生羡慕、喜悦。引用内容：（作者：[姓名]，年份：[具体年份]）这片海域的生态环境近年来在逐渐改善。结果是度过了一段愉快的时光，还收获了许多美好的回忆。\nD. 有人来到海边，感受海水清凉，看到冲浪者、捡到贝壳，遇雨避雨，最后看到彩虹。情感倾向相关内容：满心欢喜、心生羡慕、喜悦。引用内容：这片海域的生态环境近年来在逐渐改善（作者：[姓名]，年份：[具体年份]）。此次海边之行的结果是度过了一段愉快的时光，还收获了许多美好的回忆。",
+    "Groundtruth": {
+      "OptimalOption": "A",
+      "AnswerAnalysis": "A选项为最佳选项。理由是对文本进行总结时，去除了人物信息；不提及观点内容；按要求将情感倾向相关内容用特定方式分隔列出；将引用按照指定格式排版；把事件结果以段落形式呈现。B选项提及了观点内容，不符合要求。C选项没有去除人物信息。D选项引用内容排版不符合指定的APA格式要求。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_76",
+        "rule_text": "如果文本中有观点内容，总结时无需提及观点内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_98",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要将情感倾向相关内容用特定符号分隔列出"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_30",
+        "rule_text": "如果文本中涉及事件背景，总结时需要将事件背景与观点内容合并描述"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_110",
+        "rule_text": "如果文本是引用或参考文献，引用应按照APA格式或指定的引用风格进行排版"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_18",
+        "rule_text": "如果文本中涉及事件结果，总结时需要将事件结果以段落形式呈现"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_67",
+        "rule_text": "如果文本中有人物信息，总结时无需提及人物信息"
+      }
+    ],
+    "Context": "在一个春光明媚的日子里，小孙前往了一座古老的寺庙。这座寺庙历史悠久，始建于唐朝，历经岁月的洗礼，见证了无数朝代的更迭，是当地重要的文化象征。寺庙里静谧祥和，香烟袅袅，钟声回荡在空气中。小孙踏入寺庙，心中满是敬畏。他看到大雄宝殿庄严肃穆，佛像栩栩如生。在参观过程中，他听到一位香客感慨道：“这座寺庙真是承载了太多的历史文化底蕴，让人心灵得到净化。”小孙虽然认同，但总结时并未将此观点纳入。此时，小孙的朋友打来电话说：“今天出来游玩真是太棒了！”小孙笑着回应。小孙继续在寺庙里漫步，在偏殿发现了一些古老的碑刻，上面的文字记载着寺庙的兴衰历程。他如获珍宝，仔细研读。这时，一位僧人走过来轻声说：“寺庙的历史，也是我们传承文化的责任。”小孙觉得很有道理。离开寺庙时，小孙回顾这次行程，他先是进入寺庙，看到大雄宝殿、佛像，发现古老碑刻，聆听僧人话语，最后离开。此次寺庙之行，结果是他对寺庙的历史有了更深刻的认识，心灵也得到了一次洗礼。同时，根据某历史研究资料显示（作者：[姓名]，年份：[具体年份]），这座寺庙在历史上曾多次修缮。",
+    "MultipleOptions": "A. 有人前往一座古老寺庙，该寺庙始建于唐朝，历经朝代更迭。在寺庙里看到大雄宝殿、佛像，发现古老碑刻，聆听僧人话语后离开。情感倾向相关内容：满是敬畏、笑着回应。事件结果：对寺庙历史有更深刻认识，心灵得到洗礼。引用内容：根据某历史研究资料显示（作者：[姓名]，年份：[具体年份]），这座寺庙在历史上曾多次修缮。\nB. 小孙去了一座始建于唐朝的古老寺庙，看到了很多东西还听到了一些话，最后离开。情感倾向相关内容：满是敬畏、笑着回应。事件结果：对寺庙历史有更深刻认识，心灵得到洗礼。引用内容：根据某历史研究资料显示（作者：[姓名]，年份：[具体年份]），这座寺庙在历史上曾多次修缮。\nC. 有人前往一座古老寺庙，看到了大雄宝殿、佛像，发现古老碑刻，还听到了香客、朋友、僧人的话，最后离开。事件结果：对寺庙历史有更深刻认识，心灵得到洗礼。引用内容：根据某历史研究资料显示（作者：[姓名]，年份：[具体年份]），这座寺庙在历史上曾多次修缮。\nD. 有人前往一座始建于唐朝、历经朝代更迭的古老寺庙。在寺庙里看到大雄宝殿、佛像，发现古老碑刻。最后离开。情感倾向没列出，事件结果简单说有收获，引用内容没按格式写。",
+    "Groundtruth": {
+      "OptimalOption": "A",
+      "AnswerAnalysis": "A选项为最佳选项，该选项按照要求生成总结，未提及观点内容，将情感倾向相关内容用特定符号分隔列出，对事件背景与整体行程合并描述，引用内容按指定风格排版，将事件结果以段落形式呈现，且未提及人物信息。B选项提及了人物信息小孙，不符合要求。C选项没有将情感倾向相关内容用特定符号分隔列出，且提及了观点内容。D选项情感倾向没列出，事件结果表述不规范，引用内容没按格式写，均不符合规则。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_76",
+        "rule_text": "如果文本中有观点内容，总结时无需提及观点内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_98",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要将情感倾向相关内容用特定符号分隔列出"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_30",
+        "rule_text": "如果文本中涉及事件背景，总结时需要将事件背景与观点内容合并描述"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_110",
+        "rule_text": "如果文本是引用或参考文献，引用应按照APA格式或指定的引用风格进行排版"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_18",
+        "rule_text": "如果文本中涉及事件结果，总结时需要将事件结果以段落形式呈现"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_67",
+        "rule_text": "如果文本中有人物信息，总结时无需提及人物信息"
+      }
+    ],
+    "Context": "在一个阳光正好的周末，小周前往了当地一座知名的博物馆。这座博物馆规模宏大，收藏了众多珍贵的文物，涵盖了从远古时期到近代的各个历史阶段，是当地文化传承与展示的重要场所。博物馆内灯光布局合理，柔和的光线洒在一件件精美的展品上。小周怀着崇敬的心情在各个展厅穿梭，他先是被一组新石器时代的陶器吸引，这些陶器造型古朴，纹理独特。接着，他又看到了一幅古代的书画作品，这幅作品笔法细腻，意境深远，让他不禁感叹古人的智慧与才情。此时，旁边一位参观者说道：“这些文物真是历史的瑰宝，承载着无数先辈的记忆。”小周虽认同此观点，但牢记总结时不涉及观点内容。继续前行，在青铜器展厅，他看到了巨大的鼎和各种精巧的酒器。突然，博物馆内的广播响起，通知部分展厅因设备维护即将关闭。小周只好加快脚步，简单参观了剩余展厅后离开。这次博物馆之行，他从进入博物馆，欣赏陶器、书画、青铜器，到听到广播通知部分展厅关闭，最后结束参观离开。结果是他领略了丰富的文物魅力，增长了历史知识，内心还满是对文物的惊叹之情。同时，依据某历史研究文献（作者：[姓名]，年份：[具体年份]），该博物馆所藏的部分文物有着独特的历史背景和故事。",
+    "MultipleOptions": "A. 一个周末有人去了当地一座规模宏大、收藏众多珍贵文物、涵盖多个历史阶段的博物馆。先后欣赏了新石器时代的陶器、古代书画作品、青铜器等展品。期间博物馆广播通知部分展厅因设备维护即将关闭，随后结束参观离开。结果领略了丰富的文物魅力，增长了历史知识，内心满是对文物的惊叹之情。引用文献：[姓名]（[具体年份]）。\nB. 有人在周末去博物馆，博物馆规模大且有很多珍贵文物。看到了陶器、书画、青铜器，听到广播通知后离开。结果是增长了知识，对文物有惊叹之情。文献：[姓名]（[具体年份]）。\nC. 周末有人前往博物馆，博物馆有珍贵文物。看到了各种展品，最后离开。结果是有收获。引用了[姓名]（[具体年份]）的文献。\nD. 一个人周末去博物馆，博物馆不错，看到不少东西，听到通知后走了，有收获，引用了文献。",
+    "Groundtruth": {
+      "OptimalOption": "A",
+      "AnswerAnalysis": "A选项最佳，它未提及观点内容和人物信息，合并描述了事件背景，以段落形式呈现了事件结果，按照APA格式处理了引用文献，用特定符号分隔列出了情感倾向相关内容。B选项没有以段落形式呈现事件结果，对事件背景描述简略。C选项对事件背景和过程描述过于简略，事件结果呈现不规范。D选项同样存在事件背景、过程描述简略，事件结果呈现不规范以及情感倾向未按要求处理等问题。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_73",
+        "rule_text": "如果文本中有人物信息，总结时需要将人物信息与情感倾向相关内容合并列出"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_98",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要将情感倾向相关内容用特定符号分隔列出"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_71",
+        "rule_text": "如果文本中有人物信息，总结时需要将人物信息用特定符号分隔列出"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_83",
+        "rule_text": "如果文本中有观点内容，总结时需要将观点内容按赞同程度排序列出"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_76",
+        "rule_text": "如果文本中有观点内容，总结时无需提及观点内容"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_65",
+        "rule_text": "如果文本中有引用内容，总结时需要将引用内容以编号形式依次列出"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_60",
+        "rule_text": "如果文本中有引用内容，总结时需要保持引用内容原样，不作改动"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_81",
+        "rule_text": "如果文本中有观点内容，总结时需要将观点内容以段落形式呈现"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_17",
+        "rule_text": "如果文本中涉及事件结果，总结时需要将事件结果用特定符号分隔列出"
+      }
+    ],
+    "Context": "在一个阳光明媚的午后，公园里人群熙熙攘攘。年轻的妈妈带着活泼可爱的孩子在草坪上玩耍，孩子欢快地笑着，妈妈脸上也洋溢着幸福的笑容。这时，旁边一位老人坐在长椅上，轻声说道：“现在的孩子可真幸福啊，生活条件比我们那时候好多了。”不远处，一位戴着眼镜的年轻人皱着眉头，似乎在思考着什么，他发表观点说：“虽然物质条件好了，但人们的精神压力也更大了，这未必是好事。”与此同时，另一个穿着运动装的中年人则大声赞同：“没错，现在压力大得让人喘不过气来。”过了一会儿，孩子不小心摔倒了，哇地哭了起来，妈妈急忙跑过去将他扶起，安慰着，孩子渐渐止住了哭声。整个公园里，人们都在以自己的方式享受或思考着生活。",
+    "MultipleOptions": "A. 阳光明媚的午后，公园里人群很多。年轻妈妈和幸福的孩子在草坪玩耍，老人坐在长椅说话，戴眼镜年轻人和穿运动装中年人发表观点，孩子摔倒后被妈妈扶起止住哭声。老人说：“现在的孩子可真幸福啊，生活条件比我们那时候好多了。” 观点：虽然物质条件好了，但人们的精神压力也更大了，这未必是好事。没错，现在压力大得让人喘不过气来。\nB. 午后公园人多，年轻妈妈带欢快孩子玩耍，妈妈幸福，老人说话，戴眼镜年轻人和穿运动装中年人有观点，孩子摔倒又被妈妈扶起。引用：“现在的孩子可真幸福啊，生活条件比我们那时候好多了。” 观点呈现：虽然物质条件好了，但人们的精神压力也更大了，这未必是好事。没错，现在压力大得让人喘不过气来。\nC. 阳光好的午后公园热闹，年轻妈妈带孩子玩，孩子欢快、妈妈幸福，老人在长椅上发言，戴眼镜年轻人和穿运动装中年人表达看法，孩子摔倒后被妈妈处理好。老人：“现在的孩子可真幸福啊，生活条件比我们那时候好多了。” 观点按赞同程度排：虽然物质条件好了，但人们的精神压力也更大了，这未必是好事；没错，现在压力大得让人喘不过气来。\nD. 午后公园里人来人往，年轻妈妈带着孩子玩耍，孩子开心妈妈幸福，老人说了句话，戴眼镜年轻人和穿运动装中年人有观点，孩子摔倒后被妈妈扶起。引用：“现在的孩子可真幸福啊，生活条件比我们那时候好多了。” 观点段落呈现：虽然物质条件好了，但人们的精神压力也更大了，这未必是好事。没错，现在压力大得让人喘不过气来。",
+    "Groundtruth": {
+      "OptimalOption": "C",
+      "AnswerAnalysis": "C选项为最佳选项，该选项将人物信息与情感倾向合并列出，保持引用内容原样，按赞同程度列出观点内容，也列出了事件结果。A选项没有清晰将人物信息与情感倾向合并，观点呈现方式不符合要求；B选项没有按赞同程度排列观点；D选项同样没有按赞同程度排列观点，所以A、B、D选项不符合要求。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_73",
+        "rule_text": "如果文本中有人物信息，总结时需要将人物信息与情感倾向相关内容合并列出"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_98",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要将情感倾向相关内容用特定符号分隔列出"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_71",
+        "rule_text": "如果文本中有人物信息，总结时需要将人物信息用特定符号分隔列出"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_83",
+        "rule_text": "如果文本中有观点内容，总结时需要将观点内容按赞同程度排序列出"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_76",
+        "rule_text": "如果文本中有观点内容，总结时无需提及观点内容"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_65",
+        "rule_text": "如果文本中有引用内容，总结时需要将引用内容以编号形式依次列出"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_60",
+        "rule_text": "如果文本中有引用内容，总结时需要保持引用内容原样，不作改动"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_81",
+        "rule_text": "如果文本中有观点内容，总结时需要将观点内容以段落形式呈现"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_17",
+        "rule_text": "如果文本中涉及事件结果，总结时需要将事件结果用特定符号分隔列出"
+      }
+    ],
+    "Context": "在繁华的都市街头，车水马龙，行人匆匆。上班族小李一脸疲惫地从写字楼走出，他不禁感叹：“每天这样忙碌的工作，真的让人身心俱疲。”路过公园时，他看到一群老人在悠闲地打着太极，其中一位老人笑着说：“还是我们这样的生活自在，没有太多压力。”不远处，学生小王背着沉重的书包，愁眉苦脸，他小声嘟囔：“学习压力太大了，感觉都没有快乐可言。”这时，一位热心的志愿者小张主动过来安慰小王：“虽然学习辛苦，但现在的努力是为了以后更好的生活呀。”旁边的路人老赵点头赞同：“确实，吃得苦中苦，方为人上人。”而路人老孙则有不同看法：“话是这么说，可也不能把孩子逼得太紧。”在这个充满节奏与挑战的城市里，不同的人有着不同的生活状态和感受。有人为工作奔波劳累，有人享受悠闲时光，有人在学业压力中挣扎，也有人在传递着积极的鼓励和观点。大家都在各自的轨迹上前行，努力寻找着生活的平衡与意义。",
+    "MultipleOptions": "A. 文本讲述了都市街头不同人的生活状态，有忙碌疲惫的上班族小李，悠闲自在的老人，被学业压力困扰的学生小王，积极鼓励的志愿者小张，赞同努力的路人老赵，以及认为不能逼孩子太紧的路人老孙。观点有：小张认为虽然学习辛苦，但现在的努力是为了以后更好的生活；老赵认为吃得苦中苦，方为人上人；老孙认为不能把孩子逼得太紧。\nB. 文本提到了小李、老人、小王、小张、老赵、老孙这些人，还说了他们不同的状态和观点。\nC. 都市街头，有人工作忙碌，有人生活悠闲，有人学习压力大，有人传递积极观点。\nD. 文本里有上班族、老人、学生、志愿者、路人等人物，他们有不同的感受和观点。",
+    "Groundtruth": {
+      "OptimalOption": "A",
+      "AnswerAnalysis": "A选项最佳，将人物信息与情感倾向相关内容合并列出，且按要求呈现了观点内容。B选项只是简单提及人物和状态观点，未按规则详细处理；C选项过于简略，未体现人物具体信息和详细观点；D选项同样简略，没有对人物信息、情感倾向和观点内容进行有效处理。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_73",
+        "rule_text": "如果文本中有人物信息，总结时需要将人物信息与情感倾向相关内容合并列出"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_98",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要将情感倾向相关内容用特定符号分隔列出"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_71",
+        "rule_text": "如果文本中有人物信息，总结时需要将人物信息用特定符号分隔列出"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_83",
+        "rule_text": "如果文本中有观点内容，总结时需要将观点内容按赞同程度排序列出"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_76",
+        "rule_text": "如果文本中有观点内容，总结时无需提及观点内容"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_65",
+        "rule_text": "如果文本中有引用内容，总结时需要将引用内容以编号形式依次列出"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_60",
+        "rule_text": "如果文本中有引用内容，总结时需要保持引用内容原样，不作改动"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_81",
+        "rule_text": "如果文本中有观点内容，总结时需要将观点内容以段落形式呈现"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_17",
+        "rule_text": "如果文本中涉及事件结果，总结时需要将事件结果用特定符号分隔列出"
+      }
+    ],
+    "Context": "在宁静的小村庄里，住着勤劳朴实的村民们。村里的老支书，一位德高望重的长者，每天都会在村里四处转转。这天，他看到村民老张正满脸愁容地站在自家农田旁，田里的庄稼因为干旱有些发黄。老张无奈地叹着气说：“今年这收成怕是要受影响了，这老天爷也太不给力了。”老支书走过去，拍了拍老张的肩膀安慰道：“别太灰心，咱们一起想想办法。”这时，村里的年轻技术员小李赶了过来，他信心满满地说：“现在农业技术发达，咱们可以试试一些抗旱的方法，还是有希望的。”一旁的村民老王也点头赞同：“是啊，小李说得对，不能就这么放弃。”然而，村民老赵却摇着头说：“我看够呛，这些方法不一定有用。”午后，大家聚在村里的老槐树下商量对策。有人提议打井，有人说要引进新的灌溉设备。经过一番激烈的讨论，最终决定先尝试打井。随着时间的推移，井打成了，清澈的水涌了出来，庄稼也渐渐恢复了生机。村民们看着重新焕发生机的庄稼，脸上都露出了欣慰的笑容。老支书欣慰地感慨：“只要大家齐心协力，就没有克服不了的困难。”整个村庄又恢复了往日的宁静与和谐，村民们在这片土地上继续辛勤耕耘，憧憬着美好的未来。",
+    "MultipleOptions": "A. 小村庄里庄稼因干旱发黄，老张满脸愁容无奈，老支书安慰，小李提出抗旱方法有希望，老王赞同，老赵质疑，大家商量后决定打井，井成庄稼恢复生机，老支书感慨‘只要大家齐心协力，就没有克服不了的困难’。\nB. 村里庄稼干旱，众人商量对策，最后决定打井，井打好庄稼变好，老支书说大家要齐心协力。\nC. 有个小村庄，庄稼干旱了，有人提议打井，有人说引进新设备，最后决定打井，庄稼好了。\nD. 村庄里庄稼干旱，老张发愁，老支书安慰，小李有信心，老王支持小李，老赵反对，还提到了老支书的感慨以及打井让庄稼恢复生机的事，但没有按要求格式呈现。",
+    "Groundtruth": {
+      "OptimalOption": "A",
+      "AnswerAnalysis": "最佳选项为A，A选项整合了人物信息及情感倾向，按赞同程度罗列了观点内容，保留了引用话语，还列出了事件结果，符合规则要求。B选项没有提及人物情感倾向、观点内容等；C选项过于简略，几乎没有涉及人物相关及观点等内容；D选项虽然提到了相关内容，但没有按照规则要求的格式呈现，比如情感倾向未用特定符号分隔等。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_73",
+        "rule_text": "如果文本中有人物信息，总结时需要将人物信息与情感倾向相关内容合并列出"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_98",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要将情感倾向相关内容用特定符号分隔列出"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_71",
+        "rule_text": "如果文本中有人物信息，总结时需要将人物信息用特定符号分隔列出"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_83",
+        "rule_text": "如果文本中有观点内容，总结时需要将观点内容按赞同程度排序列出"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_76",
+        "rule_text": "如果文本中有观点内容，总结时无需提及观点内容"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_65",
+        "rule_text": "如果文本中有引用内容，总结时需要将引用内容以编号形式依次列出"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_60",
+        "rule_text": "如果文本中有引用内容，总结时需要保持引用内容原样，不作改动"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_81",
+        "rule_text": "如果文本中有观点内容，总结时需要将观点内容以段落形式呈现"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_17",
+        "rule_text": "如果文本中涉及事件结果，总结时需要将事件结果用特定符号分隔列出"
+      }
+    ],
+    "Context": "在热闹的校园里，课间时分同学们都在尽情放松。性格开朗的班长小明，满脸笑容地和同学们讨论着周末计划，他兴奋地说：“周末咱们一起去郊外野餐吧，听说那里风景超美！”这时，文艺委员小美皱着眉头，不太赞同地回应：“可是周末我还有绘画比赛要准备呢，恐怕去不了。”一旁安静内向的同学小莉轻声说道：“我觉得去野餐能增进大家感情，是个好主意。”体育委员小刚则大声赞同：“没错，就该多组织这样的活动。” 突然，教室里传来一阵惊呼，原来是调皮的同学小强不小心把花瓶打翻了。班主任李老师正好走进来，看到这一幕，严肃地批评了小强：“在教室里要注意行为举止，不能这么莽撞。”小强低着头，满脸愧疚。随后，李老师又温和地安抚大家：“没关系，大家继续课间活动吧。” 紧接着，校园广播响起：“请各班班长到会议室开会。”小明听后，立刻整理好东西，匆匆向会议室走去。在这个充满活力与意外的校园里，同学们有着不同的想法和经历，大家在学习之余，也在不断经历各种有趣或意外的小插曲。",
+    "MultipleOptions": "A. 校园课间，班长小明兴奋提议周末去郊外野餐；文艺委员小美不太赞同，称要准备绘画比赛；同学小莉赞同野餐能增进感情；体育委员小刚也赞同多组织活动。同学小强打翻花瓶被班主任李老师严肃批评后又被温和安抚，随后小明听到广播去会议室开会。人物有班长小明、文艺委员小美、同学小莉、体育委员小刚、同学小强、班主任李老师。\nB. 校园里，小明提议野餐，小美因比赛不参加，小莉和小刚赞同。小强打翻花瓶被李老师批评后安抚，小明去开会。人物：小明、小美、小莉、小刚、小强、李老师。\nC. 校园课间发生诸多事，有关于野餐的讨论，还有小强打翻花瓶。人物涉及小明、小美、小莉、小刚、小强、李老师。\nD. 校园里，有人提议野餐，有人赞同有人反对，还发生了小强打翻花瓶事件，之后小明去开会。",
+    "Groundtruth": {
+      "OptimalOption": "A",
+      "AnswerAnalysis": "A选项将人物信息与情感倾向合并列出，如班长小明（兴奋）等；观点内容按表述顺序呈现；事件结果用特定符号分隔列出，符合要求。B选项没有将人物信息与情感倾向合并，观点内容也未按要求呈现。C选项过于简略，未按规则处理人物情感倾向、观点内容和事件结果。D选项同样存在未按规则处理人物情感倾向、观点内容等问题。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_73",
+        "rule_text": "如果文本中有人物信息，总结时需要将人物信息与情感倾向相关内容合并列出"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_98",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要将情感倾向相关内容用特定符号分隔列出"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_71",
+        "rule_text": "如果文本中有人物信息，总结时需要将人物信息用特定符号分隔列出"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_83",
+        "rule_text": "如果文本中有观点内容，总结时需要将观点内容按赞同程度排序列出"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_76",
+        "rule_text": "如果文本中有观点内容，总结时无需提及观点内容"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_65",
+        "rule_text": "如果文本中有引用内容，总结时需要将引用内容以编号形式依次列出"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_60",
+        "rule_text": "如果文本中有引用内容，总结时需要保持引用内容原样，不作改动"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_81",
+        "rule_text": "如果文本中有观点内容，总结时需要将观点内容以段落形式呈现"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_17",
+        "rule_text": "如果文本中涉及事件结果，总结时需要将事件结果用特定符号分隔列出"
+      }
+    ],
+    "Context": "在一个宁静的海滨小镇，阳光轻柔地洒在沙滩上，海浪有节奏地拍打着岸边。年轻的画家林娜，背着画夹，脸上洋溢着对创作的热忱，漫步在沙滩上寻找灵感。她兴奋地对身旁同样热爱艺术的好友晓峰说：“这片海滩的色彩和光影简直是天然的画布，我一定要把它的美用画笔记录下来。”晓峰点头赞同：“是啊，这里确实充满了艺术气息，每次来都有新的感悟。”这时，一位头发花白的老者坐在不远处的礁石上，望着大海，若有所思地感慨道：“大海啊，它承载着无尽的故事，包容着世间万物。”旁边的游客小李听到后，深有感触地回应：“没错，面对大海，人类是如此渺小，却又能从它身上汲取无尽的力量。”与此同时，一个活泼的小女孩在沙滩上欢快地奔跑着，笑声清脆悦耳，她开心地大喊：“哇，这里太好玩啦！”她的妈妈则在一旁微笑着看着她，眼神里满是慈爱。突然，天空中飘来了几朵乌云，不一会儿，豆大的雨点洒落下来。人们纷纷寻找地方躲避，林娜有些失落：“哎呀，这雨来得真不是时候，我的创作计划被打乱了。”不过很快她又振作起来：“没关系，雨中的海滩说不定别有一番风味呢。”最终，雨停了，天边出现了一道绚丽的彩虹，小镇又恢复了宁静与美好。",
+    "MultipleOptions": "A. 文本讲述了在海滨小镇，年轻画家林娜带着对创作的热忱寻找灵感，因雨先失落后振作；好友晓峰赞同林娜观点；头发花白的老者若有所思；游客小李深有感触；活泼小女孩开心；小女孩妈妈慈爱。引用内容有：“这片海滩的色彩和光影简直是天然的画布，我一定要把它的美用画笔记录下来。”“是啊，这里确实充满了艺术气息，每次来都有新的感悟。”“大海啊，它承载着无尽的故事，包容着世间万物。”“没错，面对大海，人类是如此渺小，却又能从它身上汲取无尽的力量。”“哇，这里太好玩啦！”“哎呀，这雨来得真不是时候，我的创作计划被打乱了。”“没关系，雨中的海滩说不定别有一番风味呢。”事件结果：雨停了，天边出现彩虹，小镇恢复宁静美好。\nB. 文本里有林娜、晓峰、老者、小李、小女孩和她妈妈。提到了海滩景色，人们对景色有不同看法，还下雨了最后又天晴有彩虹了。\nC. 文本讲了海滨小镇上人们的活动，画家林娜找灵感，晓峰、老者、小李有不同反应，小女孩玩耍，下雨又停了出彩虹。引用内容未列出。\nD. 文本中有林娜等人物，他们在海滨小镇经历了下雨又天晴，没提及人物情感倾向和引用内容。",
+    "Groundtruth": {
+      "OptimalOption": "A",
+      "AnswerAnalysis": "最佳选项为A。A选项将人物信息与情感倾向合并列出，保留了引用内容原样，也列出了事件结果，符合要求。B选项过于简略，没有按规则处理人物情感倾向、引用内容等；C选项没有列出引用内容，不符合规则；D选项既没提及人物情感倾向也没列出引用内容，不符合规则。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_12",
+        "rule_text": "如果文本中涉及事件结果，总结时无需提及事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_22",
+        "rule_text": "如果文本中涉及事件背景，总结时无需提及事件背景"
+      }
+    ],
+    "Context": "在科技快速发展的当下，智能手机市场竞争愈发激烈。各大品牌纷纷推出新机型以争夺市场份额。上个月，A公司发布了一款具有超高像素摄像头和超大容量电池的新型手机，其宣传口号是为用户带来极致的拍摄体验和超长续航。B公司也不甘示弱，紧接着推出了一款搭载全新操作系统，号称能实现更流畅操作的手机。与此同时，消费者对于手机的要求也越来越高，不仅关注性能，还注重外观设计是否时尚、机身是否轻薄。一些消费者在购买时会反复对比不同品牌手机的各项参数，而另一些则更看重品牌知名度和售后服务。手机厂商们为了吸引消费者，还举办各种促销活动，有的提供优惠券，有的赠送耳机等周边产品。这些活动在一定程度上刺激了消费者的购买欲望。",
+    "MultipleOptions": "A. 在科技快速发展当下，上个月A公司发布有超高像素摄像头和超大容量电池的手机，B公司推出搭载全新操作系统的手机，消费者对手机要求提高，厂商举办促销活动。\nB. 智能手机市场竞争激烈，各大品牌推出新机型，A公司手机宣传极致拍摄体验和超长续航，B公司手机号称更流畅操作，消费者关注手机多方面因素，厂商举办促销活动。\nC. 智能手机市场竞争激烈，各大品牌推出新机型。消费者对手机要求提高，关注性能、外观、轻薄程度等，购买时有的对比参数，有的看重品牌和售后。厂商举办促销活动吸引消费者。\nD. 当下智能手机市场竞争激烈，因为科技发展快，各大品牌为争夺份额推出新机型，消费者要求提高，厂商举办促销活动刺激购买欲望。",
+    "Groundtruth": {
+      "OptimalOption": "C",
+      "AnswerAnalysis": "最佳选项C对给定文本进行了全面且关键信息准确提取的总结，涵盖市场竞争、消费者需求、厂商举措等方面，且未提及数据内容、事件结果和事件背景。选项A提及了‘上个月’这一数据内容；选项B提到了A公司手机宣传口号和B公司手机号称的效果，属于事件相关具体内容；选项D提到‘因为科技发展快’属于事件背景，均不符合规则要求。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_12",
+        "rule_text": "如果文本中涉及事件结果，总结时无需提及事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_22",
+        "rule_text": "如果文本中涉及事件背景，总结时无需提及事件背景"
+      }
+    ],
+    "Context": "在教育改革的大背景下，许多学校都在积极探索新的教学模式。某重点中学，在经过长时间的调研和筹备后，决定开展一项关于分层教学的实验项目。该项目涉及到初中三个年级，每个年级根据学生的学习成绩和能力被分为不同层次的班级。学校为不同层次班级配备了不同教学风格的教师团队，以满足学生的多样化学习需求。同时，学校还制定了详细的教学计划和评估体系，定期对学生进行学业水平测试。而在这个过程中，有的学生适应了分层教学，学习成绩有了显著提升；有的学生则不太适应，成绩出现了波动。另外，家长们对于分层教学的看法也各不相同，有的大力支持，认为可以让孩子得到更有针对性的教育；有的则表示担忧，害怕分层会给孩子带来心理压力。学校针对家长的担忧，开展了一系列的心理健康辅导讲座，并建立了家校沟通平台，及时反馈学生的学习和心理状况。",
+    "MultipleOptions": "A. 在教育改革背景下，某重点中学开展分层教学实验项目，涉及初中三个年级，按成绩和能力分不同层次班级，配备不同教师团队，制定教学计划和评估体系，定期测试，部分学生成绩提升，部分波动，家长看法不一，学校开展讲座和建立沟通平台。\nB. 某重点中学开展分层教学实验项目，涉及初中三个年级，按学生成绩和能力分不同层次班级，配备不同教师团队，制定教学计划和评估体系，定期测试。家长对分层教学看法不一，学校开展心理健康辅导讲座并建立家校沟通平台。\nC. 某重点中学在教育改革背景下，经过调研筹备开展分层教学实验项目，初中三个年级参与，分不同层次班级，有不同教师团队，有教学计划和评估体系，定期测试，还提到学生成绩变化、家长看法及学校举措。\nD. 某重点中学开展分层教学实验项目，初中三个年级按成绩分不同层次班级，有不同教师团队，有教学计划和评估体系，有学生成绩提升数据，家长看法不一，学校开展讲座和建立沟通平台。",
+    "Groundtruth": {
+      "OptimalOption": "B",
+      "AnswerAnalysis": "选择B选项是因为它对给定文本进行了总结，未提及事件背景、数据内容以及事件结果。A选项提及了部分学生成绩提升和波动，属于事件结果；C选项提到了教育改革背景，属于事件背景；D选项有学生成绩提升数据，属于数据内容，这三个选项均不符合规则要求。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_12",
+        "rule_text": "如果文本中涉及事件结果，总结时无需提及事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_22",
+        "rule_text": "如果文本中涉及事件背景，总结时无需提及事件背景"
+      }
+    ],
+    "Context": "在文化交流日益频繁的当下，城市里举办了一场盛大的国际美食节。这次美食节选址在市中心的大型广场，周边交通便利，人流量大。活动筹备了数月之久，组织者们联系了来自世界各地的众多知名餐厅和美食商家，邀请他们携带自家特色美食参展。美食节现场热闹非凡，有来自意大利的披萨、意大利面，那浓郁的芝士香气弥漫在空气中；有日本的寿司、刺身，精致的摆盘让人赏心悦目；还有印度的咖喱美食，独特的香料味道刺激着人们的味蕾。活动期间，还设置了各类表演，有传统的民族舞蹈，舞者们身着色彩斑斓的服饰翩翩起舞；也有现代的音乐演奏，动感的旋律带动现场气氛。不少市民和游客纷纷前来参与，大家在享受美食的同时，也感受着不同国家的饮食文化魅力。活动结束后，经过统计，此次美食节的参与人数达到了数万人次，商家们也获得了颇为可观的收入。",
+    "MultipleOptions": "A.城市在文化交流频繁时于市中心广场筹备数月举办国际美食节，邀请众多世界各地商家参展，现场有意大利、日本、印度美食及传统民族舞蹈、现代音乐演奏等表演，吸引市民和游客参与，最终参与人数达数万人次，商家收入可观。\nB.城市举办国际美食节，选址市中心广场，周边交通便利，人流量大，邀请了世界各地商家带来特色美食，还有传统民族舞蹈和现代音乐演奏等表演，市民和游客前来感受不同饮食文化魅力。\nC.城市举办国际美食节，组织者邀请众多来自世界各地的餐厅和商家参展。现场有意大利、日本、印度等特色美食，还设置了传统民族舞蹈和现代音乐演奏等表演，市民和游客前来参与，感受不同饮食文化魅力。\nD.城市举办国际美食节，有意大利、日本、印度美食，还有表演，很多人来参加。",
+    "Groundtruth": {
+      "OptimalOption": "C",
+      "AnswerAnalysis": "最佳选项为C。C选项聚焦于美食节举办、参展商家、现场美食和表演以及人们参与感受文化魅力等核心内容，未提及数据内容、事件背景和事件结果。A选项提及了筹备数月的事件背景、数万人次的参与人数数据内容以及商家收入可观的事件结果；B选项提及了选址市中心广场的事件背景；D选项过于简略，没有涵盖关键信息，均不符合特定规则生成总结的要求。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_12",
+        "rule_text": "如果文本中涉及事件结果，总结时无需提及事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_22",
+        "rule_text": "如果文本中涉及事件背景，总结时无需提及事件背景"
+      }
+    ],
+    "Context": "在环保意识逐渐增强的大环境下，某城市决定开展垃圾分类推广行动。政府部门经过长时间的研讨和规划，制定了详细的垃圾分类方案。方案中明确将垃圾分为可回收物、有害垃圾、厨余垃圾和其他垃圾四大类，并在各个社区设置了不同颜色的垃圾桶，以对应不同种类的垃圾。为了让市民更好地理解垃圾分类知识，政府组织了大量的宣传活动，包括在社区举办讲座、在公共场所张贴海报、在媒体上投放公益广告等。许多志愿者也积极参与其中，他们深入社区，挨家挨户地向居民讲解垃圾分类的方法和重要性。在推行过程中，一些居民很快掌握了垃圾分类的技巧，积极配合；但也有部分居民觉得麻烦，不太愿意遵守规定。为此，政府一方面加强监督执法，对违规行为进行处罚；另一方面，设立奖励机制，对垃圾分类做得好的居民和社区给予表彰和奖励。同时，城市还建立了垃圾分类处理中心，采用先进的技术设备，对不同类型的垃圾进行分类处理和回收利用。",
+    "MultipleOptions": "A.在环保意识增强背景下，某城市开展垃圾分类推广行动，制定方案分四类垃圾，设不同垃圾桶，组织宣传活动，有志愿者参与，推行时部分居民配合部分不配合，政府奖惩并建处理中心。\nB.某城市开展垃圾分类推广行动，制定详细方案，明确将垃圾分为可回收物、有害垃圾、厨余垃圾和其他垃圾四大类，设置不同垃圾桶，组织多种宣传活动，有志愿者参与，推行时部分居民配合部分不配合，政府采取措施并建立处理中心。\nC.某城市开展垃圾分类推广行动，制定方案，设置垃圾桶，组织宣传活动，有志愿者参与，推行时部分居民配合部分不配合，政府采取监督执法、奖励机制等措施，还建立了垃圾分类处理中心。\nD.某城市开展垃圾分类行动，有宣传活动，有志愿者，政府有措施",
+    "Groundtruth": {
+      "OptimalOption": "C",
+      "AnswerAnalysis": "最佳选项为C。C选项对文本整体进行梳理，去除了事件背景相关内容，也未提及数据内容，提取了关键信息，总结出城市开展垃圾分类行动及相关举措和情况。A选项提及了“在环保意识增强背景下”，违反了不能提及事件背景的规则；B选项提到了“明确将垃圾分为可回收物、有害垃圾、厨余垃圾和其他垃圾四大类”，属于数据内容，不符合规则；D选项过于简略，没有完整涵盖文本关键信息。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_12",
+        "rule_text": "如果文本中涉及事件结果，总结时无需提及事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_22",
+        "rule_text": "如果文本中涉及事件背景，总结时无需提及事件背景"
+      }
+    ],
+    "Context": "在全民健身热潮兴起的当下，一座城市举办了一场大型的马拉松赛事。此次赛事的举办地选在城市风景优美的地段，沿途既有现代化的高楼大厦，又有充满历史韵味的古迹。赛事筹备阶段，主办方历经数月，精心规划路线，联系了众多专业的医疗团队和志愿者组织，为选手提供全方位保障。比赛当天，来自全国各地乃至世界各地的数千名选手齐聚一堂。赛场上，选手们各展风采，有的步伐轻盈，稳步前进；有的则咬紧牙关，奋力冲刺。赛道两旁，热情的观众们呐喊助威，欢呼声此起彼伏。同时，赛事还设置了多个补给点，提供各种饮品和食品。此外，为了保证赛事的公平公正，主办方安排了大量的裁判人员，严格监督比赛过程。",
+    "MultipleOptions": "A.在全民健身热潮下，一座城市举办大型马拉松赛事，举办地风景好，有高楼大厦和古迹，数千名选手参赛，主办方筹备数月，规划路线，联系医疗团队和志愿者组织，比赛时选手各展风采，观众呐喊，有补给点，安排裁判保证公平公正。\nB.一座城市举办大型马拉松赛事，主办方精心筹备，联系医疗团队和志愿者组织，规划路线。比赛当天众多选手参赛，赛场上选手各展风采，赛道旁观众呐喊助威，赛事设置补给点，主办方安排裁判保证公平公正。\nC.在全民健身热潮兴起当下，城市举办马拉松赛事，筹备数月，安排大量裁判，有数千选手参加。\nD.一座城市举办赛事，举办地风景优美，有现代化建筑和古迹，筹备阶段联系专业团队，比赛时有补给点。",
+    "Groundtruth": {
+      "OptimalOption": "B",
+      "AnswerAnalysis": "最佳选项为B，该选项没有提及文本中的数据内容、事件结果和事件背景，符合要求。A选项提到了“全民健身热潮”这一事件背景以及“数千名选手”这一数据内容；C选项提到了“全民健身热潮兴起当下”这一事件背景以及“数千选手”这一数据内容；D选项提到了“举办地风景优美，有现代化建筑和古迹”这一事件背景，均不符合规则。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_12",
+        "rule_text": "如果文本中涉及事件结果，总结时无需提及事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_22",
+        "rule_text": "如果文本中涉及事件背景，总结时无需提及事件背景"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_47",
+        "rule_text": "如果文本中涉及事件过程，总结时无需提及事件过程"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_58",
+        "rule_text": "如果文本中有引用内容，总结时无需提及引用内容"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_67",
+        "rule_text": "如果文本中有人物信息，总结时无需提及人物信息"
+      }
+    ],
+    "Context": "在那个阳光明媚的午后，城市的街道上车水马龙。小明，一位年轻的创业者，怀揣着梦想和激情，决定在这个竞争激烈的市场中闯出一片天地。他先是做了大量的市场调研，收集了各种数据，比如不同年龄段消费者的喜好、市场的需求规模等。之后，他在市中心租了一间办公室，开始组建自己的团队。在团队组建过程中，遭遇了各种困难，像人员招聘的难题、团队成员之间理念的冲突等。为了鼓舞士气，他引用了一句名言：“有志者、事竟成。”经过长时间的努力，公司终于逐渐走上正轨，取得了令人瞩目的成绩。然而，市场环境变幻莫测，又面临着新的挑战，比如竞争对手推出了更具优势的产品。此时，他再次调整策略，积极应对。",
+    "MultipleOptions": "A. 一位创业者在阳光明媚的午后，面对车水马龙的街道，怀揣梦想进入竞争激烈的市场，做了大量市场调研收集数据，租办公室组建团队，期间面临困难，引用名言鼓舞士气，公司走上正轨取得成绩后又面临新挑战，再次调整策略应对。\nB. 一位创业者怀揣梦想进入竞争激烈的市场，租办公室组建团队，期间面临困难，后公司走上正轨又面临新挑战，再次调整策略应对。\nC. 小明怀揣梦想进入竞争激烈的市场，做了大量市场调研收集数据，租办公室组建团队，期间面临困难，引用名言鼓舞士气，公司走上正轨取得成绩后又面临新挑战，再次调整策略应对。\nD. 一位创业者怀揣梦想进入市场，在市中心租办公室，经历人员招聘难题等困难，公司取得成绩后又面临新挑战。",
+    "Groundtruth": {
+      "OptimalOption": "B",
+      "AnswerAnalysis": "最佳选项为B，理由是总结内容没有提及数据内容、事件结果、事件背景、事件过程、引用内容和人物信息，符合按照特定规则生成通用文本总结的目标。A选项提及了事件背景（阳光明媚的午后，车水马龙的街道）和数据内容（做了大量市场调研收集数据）以及引用内容（引用名言鼓舞士气）；C选项提及了人物信息（小明）、数据内容（做了大量市场调研收集数据）和引用内容（引用名言鼓舞士气）以及事件结果（公司走上正轨取得成绩）；D选项提及了事件结果（公司取得成绩），均不符合要求。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_12",
+        "rule_text": "如果文本中涉及事件结果，总结时无需提及事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_22",
+        "rule_text": "如果文本中涉及事件背景，总结时无需提及事件背景"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_47",
+        "rule_text": "如果文本中涉及事件过程，总结时无需提及事件过程"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_58",
+        "rule_text": "如果文本中有引用内容，总结时无需提及引用内容"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_67",
+        "rule_text": "如果文本中有人物信息，总结时无需提及人物信息"
+      }
+    ],
+    "Context": "在一个宁静的小镇上，一场盛大的文化节即将举行。许多来自不同地区的艺术家们纷纷赶来参与。这次文化节的举办背景是为了弘扬本地的传统艺术，促进文化交流。活动筹备期间，工作人员们面临诸多挑战，比如要协调众多不同类型的表演场地，还要安排各类丰富的文化展示区域。筹备过程中，有人提出了一个新颖的想法，要打造一个互动式的艺术体验区。在确定这个体验区的具体内容时，参考了很多过往成功活动的案例，还收集了大量相关数据，像不同年龄段人群对各类艺术形式的兴趣占比等。文化节当天，现场热闹非凡，有精彩绝伦的舞蹈表演，还有别具一格的手工艺品展示。众多游客和居民纷纷涌入，大家沉浸在这浓厚的文化氛围之中。艺术家们展示了各自独特的技艺，通过各种方式展现传统与现代相结合的艺术魅力。文化节结束后，取得了巨大的成功，吸引了大量媒体的关注。但后续也面临一些问题，比如场地清理和设备存放等。",
+    "MultipleOptions": "A. 小镇举办文化节，举办背景是弘扬传统艺术、促进文化交流，筹备面临挑战，文化节当天有舞蹈、手工艺品展示等，吸引众多游客和居民，结束后取得成功但有场地清理等后续问题\nB. 一场文化节举办，筹备面临挑战，有人提出打造互动式艺术体验区，文化节当天有舞蹈表演、手工艺品展示等，艺术家展示技艺，文化节后有场地清理等后续问题\nC. 小镇上文化节举办，筹备时参考过往案例、收集数据，文化节当天热闹，有多种展示，艺术家展示技艺，结束后吸引媒体关注\nD. 文化节在小镇举办，许多艺术家参与，筹备面临挑战，文化节当天有精彩节目，结束后取得成功",
+    "Groundtruth": {
+      "OptimalOption": "B",
+      "AnswerAnalysis": "最佳选项为B，理由是对文本进行总结，未提及事件背景、事件过程、数据内容、引用内容、人物信息以及事件结果，符合按照特定规则生成通用文本总结的目标。A选项提及了文化节的举办背景；C选项提及了筹备时参考过往案例和收集数据；D选项提及了许多艺术家参与以及文化节取得成功，均不符合给定规则。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_12",
+        "rule_text": "如果文本中涉及事件结果，总结时无需提及事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_22",
+        "rule_text": "如果文本中涉及事件背景，总结时无需提及事件背景"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_47",
+        "rule_text": "如果文本中涉及事件过程，总结时无需提及事件过程"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_58",
+        "rule_text": "如果文本中有引用内容，总结时无需提及引用内容"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_67",
+        "rule_text": "如果文本中有人物信息，总结时无需提及人物信息"
+      }
+    ],
+    "Context": "在一个遥远的海滨城市，那里风景如画，气候宜人。一场重要的国际学术会议即将召开，举办此次会议的背景是该领域近年来新的研究成果不断涌现，急需一个交流平台。众多知名学者纷纷收到邀请，准备前来分享自己的研究成果。会议筹备阶段，工作人员面临着诸多复杂的问题，像要精心安排不同主题的分会场，还要协调来自世界各地学者的行程安排。在确定会议日程时，参考了以往同类型会议的经验，同时收集了许多数据，例如不同时间段参会人员的预计到达数量等。会议期间，学者们围绕多个前沿议题展开了激烈讨论，有的学者还在会上引用了经典研究著作中的观点来支持自己的论点。会后，取得了丰硕的成果，众多新的合作意向达成。但紧接着也出现了后续问题，比如会议资料的整理与归档等。此外，城市的旅游部门希望借助会议的影响力，进一步推广当地的旅游资源，于是策划了一系列旅游活动，邀请参会人员参与。然而，活动执行过程中又遇到了诸如场地协调、时间安排等困难。",
+    "MultipleOptions": "A. 海滨城市风景如画、气候宜人，因该领域新研究成果涌现需交流平台而举办国际学术会议，筹备遇安排分会场等问题，确定日程参考以往经验并收集数据，会议期间学者围绕前沿议题讨论且有引用，会后有成果也有后续问题，旅游部门策划旅游活动遇困难。\nB. 一场国际学术会议在海滨城市举办，筹备阶段面临安排分会场、协调学者行程等问题，确定日程参考了以往经验。会议期间学者围绕前沿议题展开讨论。会后有后续问题，城市旅游部门策划旅游活动但执行中遇到困难。\nC. 海滨城市举办国际学术会议，众多知名学者参会分享成果，筹备有困难，会议期间讨论热烈，会后有新合作意向达成，旅游部门策划活动执行遇困难。\nD. 国际学术会议在海滨城市举办，因新研究成果需交流平台，筹备时收集数据，会议期间有引用，会后有成果和后续问题，旅游部门活动执行遇困难。",
+    "Groundtruth": {
+      "OptimalOption": "B",
+      "AnswerAnalysis": "最佳选项为B，该选项对文本进行总结时，未提及事件背景、数据内容、引用内容、事件结果以及事件过程等方面，符合规则要求。A选项提及了举办会议的背景以及收集数据等内容，不符合规则；C选项提到了众多知名学者参会分享成果以及会后有新合作意向达成，涉及人物信息和事件结果，不符合规则；D选项提及了举办会议的背景、收集数据以及有引用等内容，不符合规则。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_12",
+        "rule_text": "如果文本中涉及事件结果，总结时无需提及事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_22",
+        "rule_text": "如果文本中涉及事件背景，总结时无需提及事件背景"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_47",
+        "rule_text": "如果文本中涉及事件过程，总结时无需提及事件过程"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_58",
+        "rule_text": "如果文本中有引用内容，总结时无需提及引用内容"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_67",
+        "rule_text": "如果文本中有人物信息，总结时无需提及人物信息"
+      }
+    ],
+    "Context": "在那座古老而又充满活力的城市里，一场意义非凡的科技创新大赛拉开了帷幕。此次大赛吸引了众多来自不同高校和企业的团队参与。大赛举办的背景是为了推动当地科技产业的升级，鼓励创新思维的碰撞。比赛筹备过程中，组织方面临着诸多棘手难题，既要寻找合适的大型场地来容纳众多参赛团队和观众，又要协调专业评委的时间安排，确保他们能全程参与评审。在制定比赛规则时，参考了国内外众多知名赛事的经验，还收集了大量相关数据，比如过往参赛项目的成功率、不同领域项目的占比等。比赛当天，各个团队摩拳擦掌，纷纷展示自己精心准备的科技创新成果。有的团队展示了基于人工智能的智能安防系统，有的团队则带来了环保节能的新型材料。在展示过程中，一些团队引用了权威研究报告中的数据来支撑自己项目的创新性和实用性。经过激烈角逐，大赛最终评选出了各个奖项的归属。然而，比赛结束后，也出现了一些后续问题，比如获奖项目的知识产权归属问题，以及如何进一步推广这些优秀的科技成果。",
+    "MultipleOptions": "A. 一场科技创新大赛在古老又充满活力的城市举办，背景是推动当地科技产业升级，比赛筹备面临场地、评委协调难题，制定规则参考过往赛事经验，比赛当天各团队展示成果，赛后出现知识产权归属及成果推广等问题。\nB. 一场科技创新大赛吸引众多团队参与，筹备时组织方面临场地、评委协调等难题，制定规则参考了过往赛事经验，还收集了相关数据，比赛当天各团队展示创新成果，引用权威研究报告数据，赛后出现知识产权归属及成果推广等后续问题。\nC. 一场科技创新大赛吸引众多团队参与，筹备时组织方面临场地、评委协调等难题，制定规则参考了过往赛事经验。比赛当天各团队展示创新成果，赛后出现知识产权归属及成果推广等后续问题。\nD. 一场科技创新大赛在古老城市举办，吸引众多团队，大赛为推动科技产业升级举办，筹备有难题，制定规则参考经验，比赛当天展示成果，赛后有问题。",
+    "Groundtruth": {
+      "OptimalOption": "C",
+      "AnswerAnalysis": "最佳选项为C。C选项没有提及大赛举办背景、比赛筹备过程、相关数据内容、引用内容以及比赛结果，符合规则要求。A选项提及了大赛举办背景；B选项提及了相关数据内容和引用内容；D选项提及了大赛举办背景，均不符合规则。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_12",
+        "rule_text": "如果文本中涉及事件结果，总结时无需提及事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_22",
+        "rule_text": "如果文本中涉及事件背景，总结时无需提及事件背景"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_47",
+        "rule_text": "如果文本中涉及事件过程，总结时无需提及事件过程"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_58",
+        "rule_text": "如果文本中有引用内容，总结时无需提及引用内容"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_67",
+        "rule_text": "如果文本中有人物信息，总结时无需提及人物信息"
+      }
+    ],
+    "Context": "在一个偏僻但风景秀丽的山区小镇，当地政府计划开展一项生态旅游开发项目。这个项目的背景是小镇经济发展较为落后，传统产业面临诸多困境，急需寻找新的经济增长点。项目筹备初期，负责人是一位经验丰富的规划师，他带领团队做了大量细致的工作。先是进行了全面的资源勘查，收集了许多数据，比如山区的动植物种类数量、不同季节的气候数据等。之后，在设计旅游线路时，参考了周边成功旅游地的模式。在项目推进过程中，遭遇了当地居民对开发的担忧和抵触等困难。为了安抚居民情绪，规划师引用了一句俗语：“众人拾柴火焰高”，鼓励大家共同参与。同时，政府部门也积极沟通协调。在项目建设中，要建造多个不同功能的景点设施，像观景台、休息亭等。经过一系列努力，项目最终成功落地。但后续又面临着管理运营方面的问题，比如景区卫生维护、人员培训等。",
+    "MultipleOptions": "A. 当地政府在山区小镇开展生态旅游开发项目，虽项目成功落地，但后续有管理运营问题，筹备时勘查资源收集数据，设计线路参考周边模式，推进遇居民担忧抵触，建设多个景点设施。\nB. 当地政府计划在山区小镇开展生态旅游开发项目，筹备初期勘查资源，设计线路参考周边模式，推进中遇居民问题，政府沟通协调，建设多个景点设施，后续面临管理运营问题。\nC. 当地政府开展生态旅游开发项目，小镇经济落后是背景，筹备时勘查资源，设计线路参考周边，推进遇居民抵触，引用俗语安抚，建设景点设施，最终成功落地。\nD. 当地政府在山区小镇开展生态旅游开发项目，负责人带领团队做了很多工作，收集数据，参考周边模式，遇居民担忧，引用俗语，建设景点，后续有管理运营问题。",
+    "Groundtruth": {
+      "OptimalOption": "B",
+      "AnswerAnalysis": "最佳选项为B。B选项涵盖了项目计划、筹备工作、推进中遇到的问题、建设情况以及后续面临的问题，且未提及数据内容、事件结果、事件背景、引用内容和人物信息，符合要求。A选项提及了项目成功落地这一事件结果；C选项提及了小镇经济落后这一事件背景和引用俗语这一引用内容；D选项提及了负责人这一人物信息和收集数据这一数据内容，均不符合规则。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_12",
+        "rule_text": "如果文本中涉及事件结果，总结时无需提及事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_22",
+        "rule_text": "如果文本中涉及事件背景，总结时无需提及事件背景"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_47",
+        "rule_text": "如果文本中涉及事件过程，总结时无需提及事件过程"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_58",
+        "rule_text": "如果文本中有引用内容，总结时无需提及引用内容"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_67",
+        "rule_text": "如果文本中有人物信息，总结时无需提及人物信息"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_76",
+        "rule_text": "如果文本中有观点内容，总结时无需提及观点内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_94",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时无需提及情感倾向相关内容"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_103",
+        "rule_text": "如果总结需要输出多个段落，每个段落的字数应控制在40到50字之间"
+      }
+    ],
+    "Context": "在那个阳光明媚的午后，公园里人群熙熙攘攘。小明带着他的宠物狗在湖边散步，小狗欢快地跑着，时不时停下来闻闻花草。不远处，一群孩子在草坪上放风筝，五彩斑斓的风筝在空中翩翩起舞。与此同时，有位老人坐在长椅上静静地看着书。旁边的亭子里，几个年轻人在热烈地讨论着最近的热门电影，有人认为某部电影剧情拖沓，有人却觉得它创意十足。而在公园的一角，一场小型音乐会正在筹备，工作人员忙碌地摆放着乐器，调试着音响。还有一些志愿者在公园里清理垃圾，维护环境整洁。尽管天气炎热，但大家都在各自享受着公园的美好时光。",
+    "MultipleOptions": "A. 在阳光明媚的午后，小明带宠物狗散步，孩子放风筝，老人看书，年轻人讨论电影，有人筹备音乐会，志愿者清理垃圾。\nB. 公园里，人们有的散步，有的放风筝，有的看书，有的讨论热门电影，有的筹备音乐会，还有的清理垃圾。\nC. 午后公园热闹，有人带着宠物活动，有人放风筝，有人看书，有人筹备音乐会，志愿者在维护环境。\nD. 公园里，有人散步、放风筝、看书，有人筹备音乐会，还有志愿者清理垃圾。",
+    "Groundtruth": {
+      "OptimalOption": "D",
+      "AnswerAnalysis": "最佳选项D符合要求，未提及人物信息、观点内容等。A选项提及了人物小明；B选项提到了热门电影属于观点相关；C选项提到带着宠物活动涉及人物相关，均不符合规则。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_12",
+        "rule_text": "如果文本中涉及事件结果，总结时无需提及事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_22",
+        "rule_text": "如果文本中涉及事件背景，总结时无需提及事件背景"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_47",
+        "rule_text": "如果文本中涉及事件过程，总结时无需提及事件过程"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_58",
+        "rule_text": "如果文本中有引用内容，总结时无需提及引用内容"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_67",
+        "rule_text": "如果文本中有人物信息，总结时无需提及人物信息"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_76",
+        "rule_text": "如果文本中有观点内容，总结时无需提及观点内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_94",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时无需提及情感倾向相关内容"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_103",
+        "rule_text": "如果总结需要输出多个段落，每个段落的字数应控制在40到50字之间"
+      }
+    ],
+    "Context": "在繁华都市的一个工作日，街道上车水马龙。写字楼里，员工们忙碌地穿梭于各个办公室，有的在对着电脑屏幕快速敲击键盘，有的在会议室里激烈地讨论项目方案。楼下的咖啡厅里，人来人往，服务员熟练地制作着各种咖啡饮品，香气四溢。不远处的商场中，顾客们在各个店铺间挑选商品，有的在试穿衣服，有的在比较不同品牌的电子产品。路边的公交站，人们焦急地等待着公交车，车辆一辆接着一辆地驶过。公园里，绿树成荫，一些老人在打太极，动作舒缓而沉稳。图书馆内，安静祥和，读者们或是在书架间寻找心仪的书籍，或是坐在座位上静静地阅读。城市的各个角落，大家都在有条不紊地进行着自己的日常活动，虽忙碌却充实。",
+    "MultipleOptions": "A. 城市工作日很热闹，写字楼员工忙工作，咖啡厅人来人往，商场顾客挑选商品，公交站有人等车，公园老人打太极，图书馆读者在阅读。\nB. 在繁华都市的工作日，人们在写字楼、咖啡厅、商场、公交站、公园、图书馆等地方进行着各自的日常活动，忙碌又充实。\nC. 繁华都市工作日，写字楼里员工对着电脑敲键盘、在会议室讨论方案，商场顾客试穿衣服、比较电子产品。\nD. 城市中，写字楼、咖啡厅、商场、公交站、公园、图书馆等地，人们都在做着自己的事，生活有序开展。",
+    "Groundtruth": {
+      "OptimalOption": "D",
+      "AnswerAnalysis": "最佳选项为D，对城市不同场景人们日常活动进行了概括性总结，未涉及数据、事件结果、背景、过程、引用、人物、观点、情感倾向等内容。A选项提及员工忙工作等，涉及人物信息；B选项提到忙碌又充实，涉及情感倾向；C选项详细描述了写字楼和商场人们的活动，涉及事件过程，均不符合要求。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_12",
+        "rule_text": "如果文本中涉及事件结果，总结时无需提及事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_22",
+        "rule_text": "如果文本中涉及事件背景，总结时无需提及事件背景"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_47",
+        "rule_text": "如果文本中涉及事件过程，总结时无需提及事件过程"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_58",
+        "rule_text": "如果文本中有引用内容，总结时无需提及引用内容"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_67",
+        "rule_text": "如果文本中有人物信息，总结时无需提及人物信息"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_76",
+        "rule_text": "如果文本中有观点内容，总结时无需提及观点内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_94",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时无需提及情感倾向相关内容"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_103",
+        "rule_text": "如果总结需要输出多个段落，每个段落的字数应控制在40到50字之间"
+      }
+    ],
+    "Context": "在一个宁静的小镇上，镇中心有一座古老的教堂，教堂的钟楼高耸入云。每逢周日，居民们都会来到教堂做礼拜，牧师会在讲坛上诵读经文、讲解教义，“上帝爱世人”这样的话语常常回响在教堂内。教堂旁边是一个热闹的集市，摊位一个挨着一个，摆满了各种各样的农产品，有红彤彤的苹果，金黄的玉米，鲜嫩的蔬菜等。集市上，人们来来往往，讨价还价声此起彼伏。小镇边缘有一条清澈的河流缓缓流过，河上有一座石桥。夏日时，孩子们会在河里嬉戏游泳，溅起一朵朵欢乐的水花。河岸边是大片的草地，草地上星星点点地开着不知名的野花。镇郊有一座废弃的工厂，斑驳的墙壁诉说着曾经的辉煌，如今偶尔会有一些探险者来此探索。小镇的学校里，老师们辛勤授课，学生们认真听讲，课堂上积极回答问题。图书馆内，书架整齐排列，人们安静地借阅和阅读书籍。总之，小镇有着丰富多样的场所和日常活动。",
+    "MultipleOptions": "A. 小镇有古老教堂、热闹集市、河流石桥、废弃工厂、学校和图书馆等多种场所及日常活动。\nB. 小镇上，周日居民去教堂做礼拜，集市农产品丰富，夏日孩子在河里嬉戏，还有学校和图书馆。\nC. 小镇有教堂、集市、河流、工厂、学校、图书馆等，人们在这里开展各种日常活动，生活欢乐。\nD. 小镇上有古老的建筑如教堂，还有充满活力的集市，河流周边景色美，人们生活丰富。",
+    "Groundtruth": {
+      "OptimalOption": "A",
+      "AnswerAnalysis": "A选项对小镇相关文本进行总结，不涉及数据、事件结果、背景、过程、引用、人物、观点、情感倾向等内容，符合要求。B选项提及了周日居民去教堂做礼拜等事件过程；C选项出现了人们生活欢乐的情感倾向；D选项提到古老的建筑等观点内容，均不符合规则。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_12",
+        "rule_text": "如果文本中涉及事件结果，总结时无需提及事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_22",
+        "rule_text": "如果文本中涉及事件背景，总结时无需提及事件背景"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_47",
+        "rule_text": "如果文本中涉及事件过程，总结时无需提及事件过程"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_58",
+        "rule_text": "如果文本中有引用内容，总结时无需提及引用内容"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_67",
+        "rule_text": "如果文本中有人物信息，总结时无需提及人物信息"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_76",
+        "rule_text": "如果文本中有观点内容，总结时无需提及观点内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_94",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时无需提及情感倾向相关内容"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_103",
+        "rule_text": "如果总结需要输出多个段落，每个段落的字数应控制在40到50字之间"
+      }
+    ],
+    "Context": "在一个风和日丽的周末，海滨浴场热闹非凡。许多家庭带着孩子来度假，孩子们在沙滩上嬉笑玩耍，用小铲子堆起一座座沙堡。不远处的海面上，一些勇敢的冲浪者在浪尖上驰骋，他们熟练地驾驭着冲浪板，与海浪展开激烈搏斗。沙滩边的遮阳伞下，有人悠闲地喝着果汁，有人闭目养神。海滨浴场旁边有一家海鲜餐厅，餐厅里顾客盈门，服务员来回穿梭，端上一道道美味的海鲜菜肴，有鲜嫩的龙虾、肥美的螃蟹等。在餐厅的角落里，有几个年轻人围坐在一起，热烈地讨论着人生理想，有人憧憬着创业成功，有人渴望成为知名作家。而在海滨浴场的管理处，工作人员们紧张而有序地忙碌着，他们检查着各种安全设施，确保游客们的安全。尽管阳光炽热，但大家都尽情享受着海滨浴场带来的欢乐时光。",
+    "MultipleOptions": "A.周末海滨浴场热闹，有家庭度假、冲浪者冲浪、人们在沙滩休闲，旁边餐厅顾客多，管理处工作人员忙碌。\nB.风和日丽的周末，海滨浴场里孩子们堆沙堡，冲浪者冲浪，餐厅有美味海鲜，大家享受欢乐时光。\nC.周末海滨浴场，家庭带孩子度假，年轻人讨论理想，工作人员检查安全设施，氛围欢乐。\nD.在美好的周末，海滨浴场热闹，人们尽情玩耍，餐厅顾客多，还有人在讨论未来，管理有序。",
+    "Groundtruth": {
+      "OptimalOption": "A",
+      "AnswerAnalysis": "A选项对文本进行了全面且简洁的总结，未涉及数据、事件结果、背景、过程、引用内容、人物信息、观点、情感倾向等。B选项提到风和日丽属于事件背景；C选项提到年轻人讨论理想属于观点内容；D选项提到美好的属于情感倾向相关内容，均不符合要求。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_12",
+        "rule_text": "如果文本中涉及事件结果，总结时无需提及事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_22",
+        "rule_text": "如果文本中涉及事件背景，总结时无需提及事件背景"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_47",
+        "rule_text": "如果文本中涉及事件过程，总结时无需提及事件过程"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_58",
+        "rule_text": "如果文本中有引用内容，总结时无需提及引用内容"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_67",
+        "rule_text": "如果文本中有人物信息，总结时无需提及人物信息"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_76",
+        "rule_text": "如果文本中有观点内容，总结时无需提及观点内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_94",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时无需提及情感倾向相关内容"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_103",
+        "rule_text": "如果总结需要输出多个段落，每个段落的字数应控制在40到50字之间"
+      }
+    ],
+    "Context": "在一个秋高气爽的日子里，山林间五彩斑斓。蜿蜒的山路上，登山者们或三两成群，或独自前行。有的步伐轻快，有的稍显吃力。路边的野花野草在微风中轻轻摇曳，不知名的鸟儿在枝头叽叽喳喳叫着。半山腰处，有一座古朴的亭子，亭子里有人在休息，喝着自带的饮品，还有人在欣赏远处连绵的山脉。继续往上，云雾开始缭绕，给山峰增添了几分神秘的色彩。山顶上，一面红旗在风中烈烈作响，旁边的石头上刻着一些激励的话语。山脚下，有一个小村落，错落有致的房屋冒着袅袅炊烟。村边的小溪潺潺流淌，溪水清澈见底，能看到小鱼小虾在水底游来游去。田野里，金黄的稻穗沉甸甸的，在阳光的照耀下闪烁着光芒。村民们在田地里劳作，有的在收割，有的在运送。傍晚时分，夕阳的余晖洒在整个山林和村落，宛如一幅美丽的画卷。",
+    "MultipleOptions": "A. 秋高气爽日，山林景色美，登山者攀登，半山腰有人休息，山脚下村落宁静，傍晚景色如画。\nB. 秋高气爽时，山林五彩，登山者三两成群前行，山脚下村落有劳作场景，傍晚很美。\nC. 秋高气爽日，山林间景色佳，登山者努力攀登，山脚下有小村落，傍晚的景色令人陶醉。\nD. 秋高气爽，山林有登山者，半山腰有亭子可休息，山脚下村落错落，傍晚景色似画卷。",
+    "Groundtruth": {
+      "OptimalOption": "A",
+      "AnswerAnalysis": "A选项对文本主要场景进行概括，未提及人物、数据、观点等内容。B选项过于简略，场景概括不全面。C选项‘令人陶醉’提及了情感倾向。D选项表述不够完整全面，场景概括有缺失。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_106",
+        "rule_text": "如果文本是中文输出，遵循中文标点及书写规则"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_103",
+        "rule_text": "如果总结需要输出多个段落，每个段落的字数应控制在40到50字之间"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_104",
+        "rule_text": "如果文本需要输出多个段落，段落之间必须标注分隔符[paragraph]"
+      }
+    ],
+    "Context": "在当今这个快速发展且充满变革的时代，科技的浪潮正以汹涌之势席卷而来。一方面，人工智能取得了令人瞩目的进展，它不仅能高效地处理海量数据，还能通过复杂的算法进行精准预测，极大地改变了许多行业的运作模式。例如，在医疗领域，借助人工智能可以更快速准确地诊断疾病；在交通领域，自动驾驶技术正逐渐走向成熟。另一方面，互联网的普及让信息传播变得前所未有的便捷，人与人之间的沟通不再受地域和时间的限制。然而，这也带来了一系列新的问题，如网络信息的真实性难以辨别，个人隐私面临着被侵犯的风险等。这些科技带来的变化既给我们带来了无限机遇，也让我们面临诸多挑战，我们必须谨慎应对，充分发挥科技的优势，同时尽量减少其负面影响。",
+    "MultipleOptions": "A. 当今时代科技发展快，人工智能改变行业，互联网带来便捷，但有信息和隐私问题，要应对挑战。[paragraph]科技带来机遇与挑战，需谨慎对待。\nB. 科技浪潮来了，人工智能发展好，互联网普及了，不过有新问题，要好好应对。[paragraph]科技发展有好坏两方面。\nC. 现在科技发展迅速，人工智能进展大，互联网普及，带来便利也有问题，要应对。\nD. 当今时代科技发展，人工智能和互联网都有影响，有好有坏，要应对。",
+    "Groundtruth": {
+      "OptimalOption": "A",
+      "AnswerAnalysis": "A选项内容完整，涵盖主要信息，且段落字数符合要求，段落间有分隔符。B选项表述简略，内容不够全面。C选项没有分段。D选项既未分段，内容也过于简略。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_106",
+        "rule_text": "如果文本是中文输出，遵循中文标点及书写规则"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_103",
+        "rule_text": "如果总结需要输出多个段落，每个段落的字数应控制在40到50字之间"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_104",
+        "rule_text": "如果文本需要输出多个段落，段落之间必须标注分隔符[paragraph]"
+      }
+    ],
+    "Context": "在现代社会，教育的重要性不言而喻。它是个人成长的基石，为我们打开知识的大门，引领我们走向广阔的世界。从幼儿时期的启蒙教育，到中小学阶段系统的知识学习，再到高等教育对专业技能的深度培养，每个阶段都至关重要。同时，教育也是社会进步的动力源泉。良好的教育体系能够培养出高素质的人才，推动科技的创新、文化的繁荣以及经济的发展。然而，当前教育也面临着诸多问题。比如教育资源分配不均衡，一些地区师资力量薄弱、教学设施落后；应试教育的倾向依然存在，过于注重成绩而忽视了学生综合素质的培养。此外，随着社会的快速发展，教育理念也需要不断更新，以适应时代的需求。我们必须重视这些问题，努力推动教育的改革与发展，让教育更好地服务于个人和社会。",
+    "MultipleOptions": "A. 教育对个人成长和社会进步意义重大，涵盖多个阶段。但当前面临资源不均、应试倾向等问题，需推动改革发展。[paragraph]我们要重视教育问题，让其更好服务个人与社会。\nB. 教育很重要，是个人成长基石和社会进步动力，不过现在有资源分配不均等问题，得推动改革。\nC. 教育对个人和社会都重要，有好多阶段。现在有问题，要改革。\nD. 教育重要，关乎个人成长与社会进步，面临资源不均、应试倾向等问题，要重视并推动改革发展。",
+    "Groundtruth": {
+      "OptimalOption": "A",
+      "AnswerAnalysis": "A选项不仅全面概括了教育的重要性、面临的问题及发展方向，还按照要求分段落且每段字数在40到50字之间，段落间有分隔符。B选项没有分段落。C选项过于简略，没有完整概括关键信息且未分段落。D选项没有分段落。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_106",
+        "rule_text": "如果文本是中文输出，遵循中文标点及书写规则"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_103",
+        "rule_text": "如果总结需要输出多个段落，每个段落的字数应控制在40到50字之间"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_104",
+        "rule_text": "如果文本需要输出多个段落，段落之间必须标注分隔符[paragraph]"
+      }
+    ],
+    "Context": "在全球化进程不断加速的当下，世界各国之间的联系日益紧密。经济领域，跨国贸易愈发频繁，资本在全球范围内快速流动，各类新兴产业如雨后春笋般涌现。像电子商务，打破了地域限制，让消费者能轻松购买到世界各地的商品；共享经济模式，改变了人们传统的消费观念和资源使用方式。文化层面，不同国家和民族的文化相互碰撞、交流、融合。好莱坞电影在全球热映，传播着美国的文化价值观；而中国的传统文化，如京剧、武术等，也借助各种平台走向世界舞台。但全球化并非一帆风顺，它带来诸多好处的同时，也存在不少问题。比如，一些发展中国家在经济上过度依赖发达国家，面临产业结构不合理、贫富差距加大等困境；文化方面，本土文化受到外来文化的强烈冲击，面临被边缘化的风险。我们既要积极拥抱全球化带来的机遇，也要理性面对随之而来的挑战，寻求平衡发展的道路，推动全球共同繁荣。",
+    "MultipleOptions": "A.全球化让各国联系紧密，经济文化都有新发展，也有问题，要抓住机遇应对挑战。[paragraph]发展中国家经济文化面临困境需重视。\nB.全球化使各国联系紧密，经济新兴产业频出，文化交流融合。但也带来问题，发展中国家经济有困境，本土文化受冲击。我们要把握机遇，应对挑战。\nC.全球化当下各国联系紧，经济贸易资本活跃，文化交流碰撞。不过有问题，发展中国家要重视。\nD.全球化进程里各国联系紧密，经济文化都在发展变化，同时存在问题，要应对挑战。",
+    "Groundtruth": {
+      "OptimalOption": "B",
+      "AnswerAnalysis": "最佳选项为B，该选项既涵盖了全球化在经济、文化方面的表现、存在的问题以及应对态度，又符合每个段落字数在40到50字之间且段落间有分隔符的要求。A选项第二段字数过少；C选项没有按要求分段落且内容简略；D选项没有分段落，均不符合规则要求。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_106",
+        "rule_text": "如果文本是中文输出，遵循中文标点及书写规则"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_103",
+        "rule_text": "如果总结需要输出多个段落，每个段落的字数应控制在40到50字之间"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_104",
+        "rule_text": "如果文本需要输出多个段落，段落之间必须标注分隔符[paragraph]"
+      }
+    ],
+    "Context": "在当今多元复杂的社会环境中，环境保护问题愈发凸显且形势严峻。一方面，工业的迅猛发展带来了大量污染物排放，废水未经有效处理便排入江河湖海，致使众多水域生态失衡，大量水生物种面临灭绝危机；废气无节制排放到大气中，雾霾天气频繁出现，严重影响人们的日常生活与身体健康。另一方面，森林砍伐现象屡禁不止，大片森林遭到破坏，不仅导致水土流失加剧，许多珍稀动植物失去栖息地，生物多样性锐减，而且森林对二氧化碳的吸收能力大幅下降，进一步加剧了全球气候变暖。与此同时，人们在日常生活中对于资源的浪费现象也极为严重，水资源被随意挥霍，纸张过度使用，能源利用率低下等。这些问题相互交织，给地球生态系统带来了沉重打击，若不及时加以重视和解决，我们赖以生存的家园将面临更加严峻的危机。我们每个人都应当增强环保意识，从自身做起，在日常生活中积极践行绿色生活方式，政府和企业也需承担起相应责任，共同为保护地球环境贡献力量。",
+    "MultipleOptions": "A. 当今社会环保问题突出，工业污染、森林砍伐、资源浪费严重，各方需共同努力保护地球环境。[paragraph]工业发展带来诸多污染，影响生态与健康，森林砍伐破坏生态，资源浪费也严重。[paragraph]多问题交织打击生态，各方应担责保护地球。\nB. 现在环保问题严重，工业污染生态，森林砍伐有危害，日常资源浪费多，要一起保护地球。[paragraph]工业发展造成污染，影响环境和健康，森林砍伐破坏大，资源浪费严重。[paragraph]问题交织打击生态，大家要担起责任。\nC. 当今环保问题严峻，工业污染、森林砍伐、日常资源浪费都存在，需共同努力。工业污染影响大，森林砍伐破坏生态，资源浪费严重，问题交织，要保护地球。\nD. 社会环保问题多，工业污染、森林砍伐、资源浪费，得保护地球。工业有污染，森林被破坏，资源浪费，问题多，要行动。",
+    "Groundtruth": {
+      "OptimalOption": "A",
+      "AnswerAnalysis": "A选项每个段落字数控制在40到50字之间，段落间标注了分隔符[paragraph]，且遵循中文标点及书写规则。B选项虽意思对，但段落字数控制不够精准。C选项没有按要求分成符合字数的段落且无分隔符。D选项过于简略，未很好体现内容且格式不符。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_106",
+        "rule_text": "如果文本是中文输出，遵循中文标点及书写规则"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_103",
+        "rule_text": "如果总结需要输出多个段落，每个段落的字数应控制在40到50字之间"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_104",
+        "rule_text": "如果文本需要输出多个段落，段落之间必须标注分隔符[paragraph]"
+      }
+    ],
+    "Context": "在数字化信息爆炸的时代，社交媒体已然成为人们生活中不可或缺的一部分。一方面，它极大地拓展了人际交流的边界。人们可以轻松跨越地域限制，与远在千里之外的亲朋好友实时互动，分享生活中的点滴趣事、所思所想。不仅如此，社交媒体还为众多创作者提供了广阔的展示平台，无论是才华横溢的摄影师分享绝美的风景大片，还是文笔细腻的作家发布精彩的短文故事，都能迅速收获大量关注。另一方面，社交媒体也带来了诸多隐患。虚假信息如同病毒一般在平台上快速传播，混淆大众视听，影响人们对真实世界的认知判断。网络暴力现象也屡见不鲜，一些人躲在屏幕背后肆意攻击他人，给受害者带来极大的心理创伤。此外，过度沉迷社交媒体容易让人迷失自我，浪费大量的时间与精力，忽视现实生活中的人际交往与自我成长。面对社交媒体带来的种种影响，我们要保持清醒的头脑，合理利用其优势，同时警惕并规避其带来的负面影响。",
+    "MultipleOptions": "A. 社交媒体在当下很重要，能拓展人际交流、给创作者平台，也有虚假信息、网络暴力等问题，要合理利用。[paragraph]但字数和规则不符。\nB. 社交媒体作用大，能跨越地域交流，为创作者提供机会。不过有虚假信息、网络暴力，还会让人沉迷。我们要正确对待。字数超了。\nC. 社交媒体在当今数字化时代作用重大。它拓展人际交流，为创作者提供平台。[paragraph]但也存在隐患，如虚假信息传播、网络暴力，还易使人沉迷，我们要正确对待。\nD. 社交媒体有好有坏，好处是交流方便、给创作者舞台，坏处是虚假信息多、有网络暴力，要注意。没按段落要求",
+    "Groundtruth": {
+      "OptimalOption": "C",
+      "AnswerAnalysis": "最佳选项C符合文本输出格式要求，段落字数在40到50字之间且段落间有分隔符，涵盖了社交媒体的积极和消极方面以及应对态度。A选项未按段落字数要求；B选项字数超出；D选项未按段落格式要求。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_13",
+        "rule_text": "如果文本中涉及事件结果，总结时需要概括事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_23",
+        "rule_text": "如果文本中涉及事件背景，总结时需要概括事件背景"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_48",
+        "rule_text": "如果文本中涉及事件过程，总结时需要概括事件过程"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_77",
+        "rule_text": "如果文本中有观点内容，总结时需要概括观点内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_95",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要概括情感倾向相关内容"
+      }
+    ],
+    "Context": "在当今数字化快速发展的时代背景下，许多传统行业都面临着转型升级的压力。以制造业为例，大量企业为了适应市场新需求，开始投入资源进行智能化改造。某知名制造企业，在经过前期市场调研、技术评估以及资金筹备等一系列准备工作后，正式启动了智能化改造项目。在项目推进过程中，遇到了技术难题、人员培训等诸多挑战。技术团队经过日夜攻关，不断尝试新的解决方案，最终成功突破技术瓶颈；对于人员培训，企业组织了多场内部培训课程，邀请专家进行指导，逐步提升员工技能。经过长达两年的努力，该企业智能化改造项目取得圆满成功，生产效率大幅提升，产品质量也得到显著改善，在市场上重新赢得了竞争优势，获得了客户的高度认可，企业上下都洋溢着喜悦之情。同时，业内专家认为，这种智能化改造模式为其他传统制造企业提供了良好的借鉴范例，值得推广。",
+    "MultipleOptions": "A. 在数字化发展时代，某制造企业进行智能化改造，遇到技术和人员培训问题，最后成功了。\nB. 数字化快速发展让传统行业有转型升级压力，某制造企业启动智能化改造项目，推进中克服挑战，项目成功，生产效率和产品质量提升，还赢得优势与认可，专家觉得模式值得推广，企业很高兴。\nC. 某制造企业开展智能化改造，经过努力取得成功。\nD. 数字化发展，传统行业压力大，某制造企业做智能化改造，技术团队突破难题，企业组织培训，最后成功，专家有看法。",
+    "Groundtruth": {
+      "OptimalOption": "B",
+      "AnswerAnalysis": "最佳选项为B。B选项概括了事件发生的时代背景、企业智能化改造项目的推进过程、项目取得的成功结果、业内专家的观点以及企业的情感倾向，符合要求。A选项过于简略，没有全面涵盖背景、过程、观点和情感倾向等内容；C选项过于简单，缺少背景、过程、观点等关键信息；D选项虽然提到了一些要点，但不够完整和全面，没有像B选项那样详细准确地概括所有关键内容。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_13",
+        "rule_text": "如果文本中涉及事件结果，总结时需要概括事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_23",
+        "rule_text": "如果文本中涉及事件背景，总结时需要概括事件背景"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_48",
+        "rule_text": "如果文本中涉及事件过程，总结时需要概括事件过程"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_77",
+        "rule_text": "如果文本中有观点内容，总结时需要概括观点内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_95",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要概括情感倾向相关内容"
+      }
+    ],
+    "Context": "在教育改革的浪潮下，许多学校都在积极探索新的教学模式。某中学，鉴于传统教学方式在激发学生主动性和培养创新思维方面存在一定局限，决定开展一项基于项目式学习的教学改革试验。学校为此精心组织了教师培训活动，邀请教育专家进行讲座和指导，让教师们深入了解项目式学习的理念与方法。在试验过程中，教师们需要重新设计课程内容，以项目为驱动引导学生自主探究、合作交流。这期间，遇到了课程设计难度大、学生适应过程缓慢等问题。教师们不断研讨、调整方案，逐步优化教学流程。经过一个学期的努力，该教学改革试验取得了良好成效，学生们的学习积极性明显提高，创新能力也有所增强，课堂氛围变得更加活跃。而且，家长们对此也给予了高度评价，认为这种教学模式有助于孩子的全面发展。同时，教育界人士指出，这种基于项目式学习的教学改革模式为其他学校提供了有益的参考，值得在更大范围内推广。",
+    "MultipleOptions": "A. 某中学开展基于项目式学习的教学改革试验，组织教师培训，教师重新设计课程，遇到了一些问题。\nB. 某中学鉴于传统教学方式的局限开展教学改革试验，组织教师培训，教师重新设计课程，最终取得良好成效，获家长好评，教育界人士认为值得推广。\nC. 某中学开展教学改革试验，期间教师重新设计课程，遇到课程设计难、学生适应慢等问题，最后试验有成效。\nD. 某中学在教育改革浪潮下开展基于项目式学习的教学改革试验，精心组织教师培训，教师努力克服困难，最终试验取得成效，家长给予高度评价，教育界人士认为该模式为其他学校提供参考且值得推广。",
+    "Groundtruth": {
+      "OptimalOption": "D",
+      "AnswerAnalysis": "最佳选项为D，该选项概括了事件背景（在教育改革浪潮下，鉴于传统教学方式局限）、事件过程（精心组织教师培训，教师努力克服困难）、事件结果（试验取得成效）、观点内容（教育界人士认为该模式为其他学校提供参考且值得推广）以及情感倾向（家长给予高度评价）。A选项没有提及事件背景、结果、观点和情感倾向；B选项对事件过程概括不够全面；C选项没有提及事件背景、观点和完整的情感倾向 。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_13",
+        "rule_text": "如果文本中涉及事件结果，总结时需要概括事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_23",
+        "rule_text": "如果文本中涉及事件背景，总结时需要概括事件背景"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_48",
+        "rule_text": "如果文本中涉及事件过程，总结时需要概括事件过程"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_77",
+        "rule_text": "如果文本中有观点内容，总结时需要概括观点内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_95",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要概括情感倾向相关内容"
+      }
+    ],
+    "Context": "在全球环保意识日益增强的大背景下，城市的可持续发展成为了重要议题。某座沿海城市，因其快速的城市化进程，面临着诸多环境问题，像空气质量下降、水资源污染以及绿地面积减少等。为了有效改善城市生态环境，实现可持续发展目标，市政府决定开展一项大规模的生态修复与环保建设项目。项目启动前，相关部门进行了全面的环境评估、民意调查以及规划设计等筹备工作。在项目推进过程中，首先遭遇了资金短缺的难题，因为生态修复工程涉及面广、成本高。于是，市政府积极拓展融资渠道，争取到了国家专项环保资金支持，还吸引了一些环保企业的投资。同时，工程施工中也遇到了技术难题，比如在海岸带生态修复中，如何选择合适的植被进行种植以稳固海岸。技术团队经过深入研究、实地试验，最终确定了可行方案。经过三年的不懈努力，该项目取得了显著成果，城市空气质量明显提升，河流湖泊水质得到净化，绿地面积大幅增加，市民对城市环境满意度大幅提高。许多环保专家称赞这一项目为其他城市的生态建设树立了榜样，值得借鉴推广。而且，从市民的反馈来看，大家对这一项目充满了认可与感激之情，城市整体的环保氛围也更加浓厚了。",
+    "MultipleOptions": "A. 在全球环保意识增强背景下，某沿海城市开展生态修复与环保建设项目，项目筹备后推进，遇到难题并解决，最终取得成果，获专家称赞，市民认可。\nB. 某沿海城市开展生态修复与环保建设项目，过程中遇到资金和技术难题，最后取得成果。\nC. 全球环保意识增强，某沿海城市有环境问题，开展项目，取得成果，专家称赞。\nD. 某沿海城市开展项目，解决了资金和技术问题，市民很认可。",
+    "Groundtruth": {
+      "OptimalOption": "A",
+      "AnswerAnalysis": "A选项概括了事件背景、过程、结果，提炼了观点，概括了情感倾向相关内容，较为全面。B选项没有提及事件背景和专家称赞等观点内容；C选项没有概括项目推进过程；D选项既没有事件背景，也没有完整概括过程和观点等内容。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_13",
+        "rule_text": "如果文本中涉及事件结果，总结时需要概括事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_23",
+        "rule_text": "如果文本中涉及事件背景，总结时需要概括事件背景"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_48",
+        "rule_text": "如果文本中涉及事件过程，总结时需要概括事件过程"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_77",
+        "rule_text": "如果文本中有观点内容，总结时需要概括观点内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_95",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要概括情感倾向相关内容"
+      }
+    ],
+    "Context": "在科技飞速发展的时代，线上教育逐渐兴起。许多教育机构看到了这一趋势所蕴含的巨大潜力，纷纷布局线上教育领域。某老牌教育机构，由于传统线下教学受地域、时间等因素限制，生源增长遭遇瓶颈，决定大力拓展线上教育业务。为此，机构管理层进行了市场调研，了解不同年龄段学生的需求特点，分析竞争对手的线上课程优势与不足。在筹备线上课程过程中，面临诸多困难，比如课程内容如何适应线上教学模式，怎样选择合适的线上教学平台，以及如何培训教师掌握线上教学技巧等。教师团队积极参与培训，不断摸索适合线上教学的方法，调整教学内容和节奏。经过数月努力，该机构的线上课程正式上线。上线后，凭借丰富的教学内容、新颖的教学方式，吸引了大量学生报名，招生人数大幅增长，不仅突破了之前的生源瓶颈，还提升了机构的品牌知名度。众多教育同行认为，该机构成功转型线上教育的模式值得借鉴。同时，家长们对机构的线上课程也给予高度评价，觉得方便了孩子学习，拓展了学习资源。",
+    "MultipleOptions": "A. 在科技发展背景下，某老牌教育机构拓展线上教育业务，上线后招生人数增长。\nB. 某老牌教育机构因传统线下教学受限而拓展线上业务，筹备中面临困难，最终线上课程上线取得成功，教育同行和家长都认可。\nC. 科技发展使线上教育兴起，某老牌教育机构进行市场调研后筹备线上课程，教师积极参与培训，课程上线后突破生源瓶颈。\nD. 在科技发展、线上教育兴起的背景下，某老牌教育机构因传统线下教学受限决定拓展线上业务。机构进行市场调研后筹备线上课程，过程中面临课程适应、平台选择、教师培训等困难。教师积极摸索调整，最终线上课程上线并取得成功，招生人数增长，突破生源瓶颈，提升品牌知名度。教育同行认为其转型模式值得借鉴，家长也高度评价线上课程。",
+    "Groundtruth": {
+      "OptimalOption": "D",
+      "AnswerAnalysis": "最佳选项为D，因为它全面概括了文案中的事件背景、过程、结果以及观点内容。A选项过于简略，没有提及事件过程和观点等内容；B选项缺少事件背景的描述；C选项没有概括完整所有要点，缺少家长评价等观点内容。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_13",
+        "rule_text": "如果文本中涉及事件结果，总结时需要概括事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_23",
+        "rule_text": "如果文本中涉及事件背景，总结时需要概括事件背景"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_48",
+        "rule_text": "如果文本中涉及事件过程，总结时需要概括事件过程"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_77",
+        "rule_text": "如果文本中有观点内容，总结时需要概括观点内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_95",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要概括情感倾向相关内容"
+      }
+    ],
+    "Context": "在文化传承的大环境下，民间传统手工艺的发展状况参差不齐。某地区，因其独特的地理环境和悠久历史，孕育了多种别具特色的民间手工艺，像精美绝伦的刺绣、栩栩如生的木雕等。然而，随着时代的快速变迁，这些传统手工艺面临诸多困境，比如市场需求萎缩、传承人才匮乏等。当地政府意识到传统手工艺对地域文化的重要性，决定出台一系列扶持政策来助力其发展。在政策制定前，相关部门深入民间作坊、走访手工艺人，了解他们面临的实际问题，收集各方意见建议，进行充分的调研论证。之后，政府推出了多项政策，设立专项资金用于传统手工艺的保护与传承，建设手工艺传承基地为手工艺人提供创作和展示空间，开展手工艺进校园活动培养青少年对手工艺的兴趣。在政策实施过程中，遇到了资金分配不均、传承基地管理不善等问题。政府相关部门及时调整策略，合理分配资金，加强对传承基地的管理与监督。经过数年努力，该地区的传统手工艺得到了较好的发展，一些濒危的手工艺得以延续，市场影响力逐步扩大，吸引了不少游客前来参观体验，为当地带来了一定的旅游收入。文化学者普遍认为，当地政府的这一系列举措为其他地区保护和发展民间传统手工艺提供了良好思路，值得学习借鉴。同时，手工艺人们对政府的扶持充满了感激之情，更加坚定了传承和发展传统手工艺的决心。",
+    "MultipleOptions": "A. 在文化传承背景下，某地区传统手工艺面临困境，政府出台政策扶持，虽遇问题但及时调整，最终传统手工艺得到发展，文化学者给予肯定，手工艺人感激政府。\nB. 某地区有很多民间手工艺，政府出台政策帮助它们发展，最后发展得不错。\nC. 文化传承大环境下，某地区传统手工艺面临市场需求萎缩等困境，政府调研后推出政策，实施遇问题调整，传统手工艺发展带来旅游收入，文化学者有看法，手工艺人有决心。\nD. 某地区传统手工艺发展状况参差不齐，政府采取措施后有了变化。",
+    "Groundtruth": {
+      "OptimalOption": "A",
+      "AnswerAnalysis": "A选项全面概括了背景、事件过程、结果、观点和情感倾向等关键要素，符合要求。B选项过于简略，没有提及面临的困境、政策实施过程中的问题、学者观点和手工艺人的情感等内容。C选项表述相对零散，不够精炼和全面。D选项同样过于简略，缺少很多重要信息。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_13",
+        "rule_text": "如果文本中涉及事件结果，总结时需要概括事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_23",
+        "rule_text": "如果文本中涉及事件背景，总结时需要概括事件背景"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_48",
+        "rule_text": "如果文本中涉及事件过程，总结时需要概括事件过程"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_59",
+        "rule_text": "如果文本中有引用内容，总结时需要概括引用内容"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_68",
+        "rule_text": "如果文本中有人物信息，总结时需要概括人物信息"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_77",
+        "rule_text": "如果文本中有观点内容，总结时需要概括观点内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_95",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要概括情感倾向相关内容"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_106",
+        "rule_text": "如果文本是中文输出，遵循中文标点及书写规则"
+      }
+    ],
+    "Context": "在当今竞争激烈的商业环境中，许多企业都在寻求创新的发展策略。ABC公司，作为行业内的一家知名企业，其管理层一直秉持着积极开拓的理念。近期，他们决定开展一项重大的市场拓展项目。该项目的背景是市场需求不断变化，消费者对于产品的要求越来越高，且竞争对手也在不断推出新的产品和服务。在项目开展过程中，ABC公司首先进行了详细的市场调研，深入了解消费者的需求和偏好，接着组建了专业的研发团队，针对调研结果研发新的产品系列。经过数月的努力，新产品成功上市。市场反馈显示，该产品受到了消费者的广泛欢迎，销售量在短期内大幅增长，这无疑是一个令人欣喜的成果。有行业专家评价说：“ABC公司此次的市场拓展项目，展现了其敏锐的市场洞察力和强大的执行能力。”同时，公司内部员工也对此次项目充满了信心，大家都觉得公司未来发展前景一片光明，整体氛围积极向上。",
+    "MultipleOptions": "A. ABC公司开展市场拓展项目，没说背景，就做了调研、研发，产品上市了，专家有评价，员工有信心。\nB. 在竞争激烈商业环境，市场需求变、消费者要求高、对手推新的背景下，ABC公司开展市场拓展项目，进行调研、研发，产品成功上市且受欢迎，专家评价其有能力，员工对公司未来充满信心。\nC. ABC公司在商业环境中开展项目，做了些事，产品出来了，有人说好，员工开心。\nD. ABC公司开展项目，有背景，做了调研和研发，产品卖得好，专家有话，员工觉得不错。",
+    "Groundtruth": {
+      "OptimalOption": "B",
+      "AnswerAnalysis": "最佳选项为B。B选项全面概括了事件背景、过程、结果，概括了引用内容、人物信息、观点内容、情感倾向相关内容，且遵循中文书写规则。A选项没有提及项目开展的背景；C选项表述过于简略，没有清晰概括出事件背景、过程、结果等关键信息；D选项虽然提到了一些关键内容，但整体概括不够全面和详细。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_13",
+        "rule_text": "如果文本中涉及事件结果，总结时需要概括事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_23",
+        "rule_text": "如果文本中涉及事件背景，总结时需要概括事件背景"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_48",
+        "rule_text": "如果文本中涉及事件过程，总结时需要概括事件过程"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_59",
+        "rule_text": "如果文本中有引用内容，总结时需要概括引用内容"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_68",
+        "rule_text": "如果文本中有人物信息，总结时需要概括人物信息"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_77",
+        "rule_text": "如果文本中有观点内容，总结时需要概括观点内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_95",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要概括情感倾向相关内容"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_106",
+        "rule_text": "如果文本是中文输出，遵循中文标点及书写规则"
+      }
+    ],
+    "Context": "在教育领域，随着社会的发展和家长对孩子教育重视程度的不断提高，课外辅导市场日益火爆。小明是一名即将面临升学考试的学生，他的父母深感升学压力巨大，为了让小明能在考试中取得好成绩，决定给他报一个课外辅导班。这便是事件的起因。在选择辅导班的过程中，小明父母先是在网上搜索各类辅导班的信息，查看众多家长的评价和反馈，接着又实地考察了几家口碑较好的机构，与辅导老师进行深入交流，详细了解教学方式和课程安排等情况。经过一番谨慎的筛选和比较，他们最终选定了一家名为“智慧星”的辅导班。进入辅导班学习一段时间后，小明在最近一次模拟考试中成绩有了显著提升，这让小明和他的父母都十分高兴。正如小明父亲所说：“这个辅导班确实有一套有效的教学方法，帮助小明找到了学习的乐趣和信心。”小明自己也觉得在辅导班学到了很多实用的知识和解题技巧，对即将到来的升学考试充满了信心，内心充满了积极向上的情绪。而且，辅导班的老师认为，只要学生有积极的学习态度，加上科学的教学方法，提升成绩并不是难事，这体现了一种积极的教育观点。",
+    "MultipleOptions": "A. 社会发展使家长重视孩子教育，课外辅导市场火爆。小明父母为其选辅导班，最终选了‘智慧星’，小明成绩提升，大家都很高兴。\nB. 社会发展，家长重视孩子教育，课外辅导市场火了。小明父母给面临升学考试的他选辅导班，先上网后实地考察，选了‘智慧星’。小明成绩提升，父亲称辅导班好，小明有信心，老师有积极观点。\nC. 社会发展，家长重视教育，课外辅导市场热闹。小明父母给小明选辅导班，小明成绩提高，小明父亲说辅导班好。\nD. 社会发展，课外辅导市场好。小明父母给小明选辅导班，小明成绩上升，大家开心。",
+    "Groundtruth": {
+      "OptimalOption": "B",
+      "AnswerAnalysis": "最佳选项为B。B选项涵盖了事件背景、事件过程、事件结果、引用内容、人物信息、观点内容和情感倾向等方面，且遵循中文标点及书写规则。A选项缺少对小明父亲评价、小明自身感受及老师观点等内容的概括；C选项没有提及选辅导班的过程，概括不全面；D选项过于简略，遗漏了众多关键信息，如事件背景、选辅导班过程、引用内容、观点内容等。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_13",
+        "rule_text": "如果文本中涉及事件结果，总结时需要概括事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_23",
+        "rule_text": "如果文本中涉及事件背景，总结时需要概括事件背景"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_48",
+        "rule_text": "如果文本中涉及事件过程，总结时需要概括事件过程"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_59",
+        "rule_text": "如果文本中有引用内容，总结时需要概括引用内容"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_68",
+        "rule_text": "如果文本中有人物信息，总结时需要概括人物信息"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_77",
+        "rule_text": "如果文本中有观点内容，总结时需要概括观点内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_95",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要概括情感倾向相关内容"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_106",
+        "rule_text": "如果文本是中文输出，遵循中文标点及书写规则"
+      }
+    ],
+    "Context": "在科技飞速发展的当下，智能家居领域成为了众多企业竞相角逐的热门赛道。XYZ公司，一家在电子设备制造领域有着深厚底蕴的企业，其高层一直怀揣着引领智能家居变革的愿景。近期，他们启动了一个智能家居系统研发项目。该项目的背景是人们生活水平提高，对家居便利性、舒适性和安全性的需求激增，同时市场上已有部分竞争对手推出了一些初步的智能家居产品。项目开展初期，XYZ公司广泛收集市场上各类用户对智能家居的期望和痛点，组织了跨部门的专业研发团队，涵盖电子工程、软件编程、用户体验设计等多个领域。经过一年多夜以继日的努力，智能家居系统终于研发完成并推向市场。市场反响热烈，大量消费者对该系统的创新性和实用性给予高度评价，产品销量持续攀升，这无疑是一个巨大的成功。有业内资深人士评价说：“XYZ公司此次在智能家居领域的突破，彰显了其强大的技术实力和前瞻性的战略眼光。”同时，公司内部员工士气大振，大家对公司未来在智能家居领域持续深耕充满信心，洋溢着积极进取的氛围。此外，有观点认为智能家居市场潜力巨大，未来将会深度改变人们的生活方式。而从情感倾向上看，无论是消费者还是公司内部，都对智能家居系统的发展持有积极乐观的态度。",
+    "MultipleOptions": "A. XYZ公司在智能家居领域搞了个项目，最后成功了，大家挺高兴的。\nB. XYZ公司启动智能家居系统研发项目，背景是人们需求增加且有竞品。公司收集用户期望与痛点，组织团队研发，系统推向市场后获得好评、销量攀升，业内人士称赞，员工有信心，大家对市场发展乐观，还有观点认为智能家居将改变生活方式。\nC. XYZ公司做了智能家居项目，市场反响好。\nD. XYZ公司有个智能家居项目，过程中收集了用户的东西，最后成功了，业内人士夸了，员工也开心。",
+    "Groundtruth": {
+      "OptimalOption": "B",
+      "AnswerAnalysis": "最佳选项为B，因为B选项总结概括了文本中的事件背景、事件过程、事件结果、人物信息、引用内容、观点内容、情感倾向，且遵循中文书写规则。A选项过于简略，没有涵盖众多关键信息；C选项只提到了事件主体和结果，遗漏大量重要内容；D选项虽然提到了部分关键信息，但不够全面，缺少对市场观点等内容的概括。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_13",
+        "rule_text": "如果文本中涉及事件结果，总结时需要概括事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_23",
+        "rule_text": "如果文本中涉及事件背景，总结时需要概括事件背景"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_48",
+        "rule_text": "如果文本中涉及事件过程，总结时需要概括事件过程"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_59",
+        "rule_text": "如果文本中有引用内容，总结时需要概括引用内容"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_68",
+        "rule_text": "如果文本中有人物信息，总结时需要概括人物信息"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_77",
+        "rule_text": "如果文本中有观点内容，总结时需要概括观点内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_95",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要概括情感倾向相关内容"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_106",
+        "rule_text": "如果文本是中文输出，遵循中文标点及书写规则"
+      }
+    ],
+    "Context": "在文化艺术领域，随着人们精神生活需求的不断增长，对于各类艺术展览的关注度日益提升。本市的艺术博物馆，作为文化传播的重要场所，一直致力于推广多元艺术文化。近期，博物馆决定筹备一场大型的古代书画艺术展。此次展览的背景是古代书画承载着深厚的历史文化价值，且近年来公众对传统文化艺术的兴趣愈发浓厚。筹备过程中，博物馆首先派出专业团队前往各地的文物收藏机构及私人藏家处，洽谈借展事宜，经过多轮沟通协商，成功借得众多珍贵的古代书画作品。接着，博物馆精心策划展览布局，邀请资深的文物专家和艺术史学家对展品进行解读和研究，为观众撰写详细的导览资料。展览开展后，吸引了大量市民前来参观，现场人气火爆，得到了观众的高度评价，这无疑是一次成功的展览活动。有艺术评论家评价说：“此次古代书画艺术展，不仅让公众近距离领略到古代书画的魅力，也为传统文化的传承与传播做出了积极贡献。”同时，博物馆工作人员也深感自豪，大家觉得通过自己的努力，为城市的文化建设添砖加瓦。而且，从观众的反馈来看，大家普遍认为这样的艺术展览丰富了精神生活，对传统文化艺术有了更深的认识，体现了积极的文化传播观点。从情感倾向上，无论是博物馆工作人员还是观众，都对此次展览充满了喜爱与肯定之情。",
+    "MultipleOptions": "A. 本市艺术博物馆筹备古代书画艺术展，开展后获好评。艺术评论家给予肯定，博物馆工作人员自豪，观众反馈不错。\nB. 文化艺术领域受关注，博物馆筹备古代书画展。借得作品、策划布局后开展，人气火爆。艺术评论家评价高，工作人员自豪，观众有积极反馈，各方都很喜欢。\nC. 博物馆筹备并开展大型古代书画艺术展。背景是古代书画价值高且公众兴趣浓，筹备时借展、策划，开展后成功。艺术评论家称展览有贡献，工作人员自豪，观众反馈丰富精神生活，各方充满喜爱肯定。\nD. 本市艺术博物馆搞了个古代书画展，有人评价不错，工作人员开心，观众也满意。",
+    "Groundtruth": {
+      "OptimalOption": "C",
+      "AnswerAnalysis": "C选项为最佳选项。C选项概括了事件背景、过程、结果，引用了艺术评论家的评价，提及了人物信息、观众观点以及积极的情感倾向，且遵循中文书写规则。A选项过于简略，没有概括事件背景和过程；B选项没有明确概括出事件背景；D选项过于简略随意，没有涵盖众多关键信息，均不符合要求。"
+    }
+  },
+  {
+    "Instruction": "按照特定规则生成通用文本的总结",
+    "Guidelines": [
+      {
+        "type": "文本数据内容处理",
+        "rule_id": "rule_1",
+        "rule_text": "如果文本中有数据内容，总结时无需提及数据内容"
+      },
+      {
+        "type": "文本事件结果处理",
+        "rule_id": "rule_13",
+        "rule_text": "如果文本中涉及事件结果，总结时需要概括事件结果"
+      },
+      {
+        "type": "文本事件背景处理",
+        "rule_id": "rule_23",
+        "rule_text": "如果文本中涉及事件背景，总结时需要概括事件背景"
+      },
+      {
+        "type": "文本事件过程处理",
+        "rule_id": "rule_48",
+        "rule_text": "如果文本中涉及事件过程，总结时需要概括事件过程"
+      },
+      {
+        "type": "文本引用内容处理",
+        "rule_id": "rule_59",
+        "rule_text": "如果文本中有引用内容，总结时需要概括引用内容"
+      },
+      {
+        "type": "文本人物信息处理",
+        "rule_id": "rule_68",
+        "rule_text": "如果文本中有人物信息，总结时需要概括人物信息"
+      },
+      {
+        "type": "文本观点内容处理",
+        "rule_id": "rule_77",
+        "rule_text": "如果文本中有观点内容，总结时需要概括观点内容"
+      },
+      {
+        "type": "文本情感倾向处理",
+        "rule_id": "rule_95",
+        "rule_text": "如果文本中有情感倾向相关内容，总结时需要概括情感倾向相关内容"
+      },
+      {
+        "type": "文本输出格式",
+        "rule_id": "rule_106",
+        "rule_text": "如果文本是中文输出，遵循中文标点及书写规则"
+      }
+    ],
+    "Context": "在体育界，随着全民健身理念的深入人心，各类体育赛事愈发受到大众关注。短跑名将小李，一直怀揣着在国际大赛上为国争光的梦想。近期，他将参加一场重要的国际短跑锦标赛。此次赛事的背景是国际短跑领域竞争激烈，各国选手都在不断提升训练水平和竞技状态。备战过程中，小李首先调整了训练计划，加大了训练强度，每天坚持高强度的体能训练和短跑专项练习。同时，他还邀请了专业的运动科研团队，借助先进的技术设备对自己的跑步姿势、步幅等进行精准分析和调整。比赛当天，小李在赛场上全力以赴，凭借出色的起跑、途中跑和冲刺，最终以优异的成绩获得了冠军。赛后，有体育评论员评价：“小李此次夺冠，展现了他坚韧不拔的毅力和卓越的竞技能力。”小李自己也激动地表示，这个冠军是对他多年努力的最好回报。而且，众多粉丝也为他感到骄傲，大家都认为小李为国家争得了荣誉，是民族的骄傲，这体现了积极的体育精神。同时，从大众的反馈来看，大家普遍觉得此类高水平赛事能激发更多人参与体育运动，对全民健身事业有推动作用，是一种积极的观点。此外，无论是小李、粉丝还是大众，整体都洋溢着兴奋与自豪的情感氛围。",
+    "MultipleOptions": "A. 体育界受关注，小李参加国际短跑锦标赛，最后获得冠军。赛后评论员夸他，他自己也开心，粉丝为他骄傲。\nB. 全民健身理念让体育赛事受关注，短跑名将小李怀揣梦想参加国际短跑锦标赛，赛事竞争激烈。备战时他调整训练计划、邀请科研团队，比赛获冠军。赛后评论员称赞，他称是努力回报，粉丝认为为国争光，大众觉得推动全民健身，整体氛围兴奋自豪。\nC. 小李参加国际短跑锦标赛，比赛很激烈，他努力训练最后得了冠军，大家都很开心。\nD. 体育赛事受关注，小李有梦想，参加比赛，最后拿了冠军，有人夸他，有人觉得他为国争光。",
+    "Groundtruth": {
+      "OptimalOption": "B",
+      "AnswerAnalysis": "最佳选项为B。B选项全面概括了文本中的事件背景（全民健身理念使体育赛事受关注、国际短跑竞争激烈）、事件过程（小李怀揣梦想参赛，备战时调整计划、邀请科研团队）、事件结果（获得冠军）、引用内容（评论员称赞）、人物观点（小李称是努力回报，粉丝认为为国争光，大众觉得推动全民健身）以及情感氛围（整体兴奋自豪）。A选项没有提及赛事背景、备战过程以及大众观点等内容，不够全面；C选项过于简略，没有涵盖众多关键信息；D选项同样缺少很多重要信息，如赛事背景、备战过程等，均不符合按照特定规则生成通用文本总结的要求。"
+    }
+  }
+]
